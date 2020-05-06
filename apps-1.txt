@@ -6,7 +6,7 @@ Cancel=Annuleren
 Happy New Year=Gelukkig nieuwjaar
 Happy Holidays from Andrew, Tracey, and family=Prettige vakantie van Andrew, Tracey en familie
 Please Enjoy Responsibly=Gelieve verantwoord genieten
-Popup Blocked  CA requires popups to be enabled under certain circumstances  You must white list your server within your browser to allow popups=Pop-up geblokkeerd CA gebruikt pop-ups voor bepaalde doeleinden  De server moet worden 'white-listed' in de browser om pop-ups toe te staan
+Popup Blocked  CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=Pop-up geblokkeerd CA gebruikt pop-ups voor bepaalde doeleinden  De server moet worden 'white-listed' in de browser om pop-ups toe te staan
 Docker Service Not Enabled - Only Plugins Available To Be Installed Or Managed=Dockerdienst niet ingeschakeld - Enkel plugins zijn beschikbaar voor installatie of beheer
 Community Applications works best when cookies are enabled in your browser Certain features may not be available=Community Applications werkt het beste wanneer cookies zijn toegestaan in de browser  Sommige kenmerken zijn mogelijk niet beschikbaar
 Backup Server Active Some icons may not appear, and plugin installations may be affected=Backup server actief Sommige ikonen verschijnen mogelijk niet, en plugin installaties zijn mogelijk verhinderd
@@ -21,16 +21,16 @@ Sort By Trend=Sorteer op trend
 Sort By Date Added=Sorteer op toegevoegde datum
 # Initial disclaimer translations
 Disclaimer=Disclaimer
-All applications listed here are 3rd party additions to unRaid  Neither the authors of Community Applications nor Limetech make any warranty as to the suitability of any application listed here=Alle hier vermelde applicaties zijn toevoegingen op Unraid van derde partijen. Noch de auteurs van Community Applications, noch Limetech geven enige garantie met betrekking tot de geschiktheid van de hier vermelde applicaties
+All applications listed here are 3rd party additions to unRaid Neither the authors of Community Applications nor Limetech make any warranty as to the suitability of any application listed here=Alle hier vermelde applicaties zijn toevoegingen op Unraid van derde partijen. Noch de auteurs van Community Applications, noch Limetech geven enige garantie met betrekking tot de geschiktheid van de hier vermelde applicaties
 Every attempt is made to ensure that only safe and compatible applications are present=Alles is eraan gedaan om ervoor te zorgen dat veilige en compatibele applicaties aanwezig zijn
 Application Policy=Applicatiebeleid
 I Understand=Ik begrijp het
-Installations of apps disabled  You must accept the warning to be able to install applications=Installatie van apps uitgeschakeld  De waarschuwing om het installeren van applicaties toe te staan, moet worden geaccepteerd
+Installations of apps disabled You must accept the warning to be able to install applications=Installatie van apps uitgeschakeld  De waarschuwing om het installeren van applicaties toe te staan, moet worden geaccepteerd
 Click here=Hier drukken
 
 # Plugin Disclaimer
 Plugins=Plugins
-Community Applications contains both docker containers and plugin applications  Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=Community Applications bevatten zowel docker containers als plugins  Plugins zijn ontworpen voor besturingssysteem toevoegingen, en draaien met volledige rechten op het systeem en zijn duidelijk gemarkeerd binnen CA
+Community Applications contains both docker containers and plugin applications Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=Community Applications bevatten zowel docker containers als plugins  Plugins zijn ontworpen voor besturingssysteem toevoegingen, en draaien met volledige rechten op het systeem en zijn duidelijk gemarkeerd binnen CA
 Plugin Note=Plugin notitie
 
 # Multi Install
@@ -94,20 +94,20 @@ Updating Support Links=Ondersteuningsverwijzingen bijwerken
 Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=Klaar met installeren Als de KLAAR toets niet verschijnt, dan dient op de rode X rechtsboven te worden gedrukt
 
 # error messages
-No data was returned  It is probable that another browser session has rebooted your server  Reloading this browser tab will probably fix this error=Geen data ontvangen Het is mogelijk dat een andere browsersessie de server heeft herstart Opnieuw laden van deze browserpagina zal het probleem vermoedelijk oplossen
+No data was returned It is probable that another browser session has rebooted your server Reloading this browser tab will probably fix this error=Geen data ontvangen Het is mogelijk dat een andere browsersessie de server heeft herstart Opnieuw laden van deze browserpagina zal het probleem vermoedelijk oplossen
 An error occurred.  Could not find any %s Apps=Een fout opgetreden. Kon geen enkele %s Apps finden
 Download of appfeed failed=Downloaden van de appfeed is mislukt
 # the %s here refers to a function being called
 Something really wrong went on during %s=Iets ging verschrikkelijk fout tijdens %s
 Something really went wrong here=Iets verschrikkelijk fout hier
 Post the ENTIRE contents of this message in the Community Applications Support Thread=Post de GEHELE inhoud van dit bericht in de ondersteuningsdraad voor Community Applications
-Unknown error happened  Please post a screenshot in the support thread of the Statistics screen=Onbekende fout opgetreden  Gelieve een screenshot te plaatsen in de ondersteuningsdraad van het Statistiekenscherm
+Unknown error happened Please post a screenshot in the support thread of the Statistics screen=Onbekende fout opgetreden  Gelieve een screenshot te plaatsen in de ondersteuningsdraad van het Statistiekenscherm
 Something really wrong happened Reloading the Apps tab will probably fix the problem=Iets ging verschrikkelijk fout  Herladen van de Apps pagina zal waarschijnlijk het probleem oplossen
 This plugin has a duplicated name from another plugin %s This will impact your ability to install both plugins simultaneously=Deze plugin heeft een dubbele naam met een andere plugin %s  Dit heeft invloed op beide plugins bij tegelijkertijd installeren
 
 # CA Sections Keep the length reasonable
 MENU=MENU
-Installed Apps=Geïnstalleerd Apps
+Installed Apps=Geïnstalleerde Apps
 Previous Apps=Vorige Apps
 Pinned Apps=Vastgezette Apps
 CATEGORIES=CATEGORIEËN

@@ -10,6 +10,7 @@ AFP Security Settings=AFP Beveiligsinstellingen
 All=Alles
 Anonymize diagnostics may make troubleshooting more difficult=Maak diagnostiek anoniem (kan het probleemoplossen lastiger maken)
 Apply=Toepassen
+Apps=Apps
 Array must be Stopped to change=Array opslag moet worden **gestopt** om veranderingen te maken
 Array Started=Array opslag gestart
 Array Starting=Array opslag startende

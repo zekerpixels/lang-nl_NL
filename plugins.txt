@@ -2,7 +2,7 @@
 anonymous=anoniem
 Author=Auteur
 Check For Updates=Zoek naar updates
-Click here to install version %s=Versie installeren
+Click here to install version %s=Hier drukken om versie % te installeren
 DOWNGRADE TO VERSION=DOWNGRADEN NAAR VERSIE
 Enter URL of remote plugin file or local plugin file=Voer de URL in van een pluginbestand of selecteer een lokaal pluginbestand
 ERROR=FOUT

@@ -16,5 +16,3 @@
 > 
 > Om het beleid van Community Applications te zien, zie <a href='https://forums.unraid.net/topic/87144-ca-application-policies/' target='_blank'>HIER</a>
 :end
-
-
