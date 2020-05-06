@@ -1,0 +1,20 @@
+:plug1
+> <i class='fa fa-sort enabledIcon' aria-hidden='true' style='font-size:2rem;'></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dit kiest hoe de resultaten te sorteren<br><br>
+> <i class='fa fa-download' aria-hidden='true' style='font-size:2rem;'></i> <i class='fa fa-edit' aria-hidden='true' style='font-size:2rem;'></i> &nbsp;&nbsp;Deze ikonen zullen achtereenvolgens een applicatie <span class='ca_bold'>Installeren of Bewerken</span><br>
+> <i class='fa fa-globe' aria-hidden='true' style='font-size:2rem;'></i> <i class='fa fa-cog' aria-hidden='true' style='font-size:2rem;'></i> &nbsp;&nbsp;&nbsp;Klik op deze ikonen om naar de GUI van de applicatie of de instellingen te gaan<br>
+> <i class='fa fa-cloud-download' aria-hidden='true' style='font-size:2rem;'></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hiermee wordt een applicatie bijgewerkt<br>
+> <span class='ca_fa-switchto' style='font-size:2rem;'></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hierdoor wordt direct overgeschakeld op de taal<br>
+> <span class='ca_fa-support' style='font-size:2rem;'></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dit brengt je bij de toepasselijke ondersteuningsdraad voor een applicatie<br>
+> <span class='ca_fa-project' style='font-size:2rem;'></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dit brengt je bij de projectpagina voor een applicatie<br>
+> <i class='fa fa-window-close' aria-hidden='true' style='font-size:2rem;color:maroon;'></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Druk op dit ikoon om de applicatie te verwijderen of weg te halen uit de lijsten, afhankelijk van de huidige sectie<br>
+> <span class='unpinned'> </span><span class='pinned'></span> &nbsp;&nbsp;Druk op deze ikonen om de applicatie vast te zetten of los te maken voor het bekijken (in de Pinned Apps sectie)<br>
+> <i class='fa fa-info-circle' aria-hidden='true' style='font-size:2rem;'></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dit geeft meer informatie over de applicatie.  LETOP: Je kan ook op het ikoon van de applicatie zelf drukken voor meer informatie.<br>
+> <i class='fa fa-exclamation-triangle' aria-hidden='true' style='font-size:2rem;'></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dit geeft uitstaande waarschuwingen of extra commentaar over de applicatie<br>
+> <input type='checkbox' checked> &nbsp;&nbsp;&nbsp;Op de vorige apps sectie, kunnen meerdere applicaties worden geselecteerd om tegelijkertijd te installeren<br>
+> <span class='ca_thumbsup' style='margin-left:0px; font-size:2rem;'></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dit is de aanbevolen versie van de applicatiemaker zelf, om te installeren<br>
+> <center>Voor ondersteuning van deze plugin, zie <a title='click for help' href='https://lime-technology.com/forums/topic/38582-plug-in-community-applications/' target='_blank'>HIER</a></center>
+> 
+> Om het beleid van Community Applications te zien, zie <a href='https://forums.unraid.net/topic/87144-ca-application-policies/' target='_blank'>HIER</a>
+:end
+
+

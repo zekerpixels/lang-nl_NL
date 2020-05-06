@@ -1,0 +1,279 @@
+A registration replacement key has been created for USB Flash GUID=Een registratie vervangingssleutel is aangemaakt voor USB Flash GUID
+About=Over
+alert=alarm
+An email has been sent to=Een email is verzonden naar
+and=en
+Anonymize diagnostics=Maak diagnostieken anoniem
+Anytime=Op elk gewenst moment
+Archived Notifications=Meldingen Archief
+Are you sure=Bent u zeker
+Array has been Reset=Array opslag is **teruggezet**
+Array must be Started to change permissions=Array oplsag moet worden **Gestart** om rechten te kunnen veranderen
+Array must be Stopped to change=Array opslag moet worden **Gestopt** om te kunnen veranderen
+Array=Opslag
+Author=Autheur
+Blacklisted USB Flash GUID=USB Flash GUID staat op de zwarte lijst
+Branch=Tak
+By using this software, you agree with our=Door gebruik te maken van deze software, stemt u in met onze
+Cache slots=Cache sloten
+Cannot connect to key-server=Kan geen verbinding maken met de server
+Check for Updates=Zoek naar updates
+click Install Key=druk op <i>Installeer Sleutel</i>
+collecting diagnostic information this may take several minutes=verzamelen van diagnostiek informatie (dit kan enkele minuten duren)
+Component=Component
+Credits=Applaus
+Data slots=Data sloten
+Delete notification=Verwijder melding
+Developer=Ontwikkelaar
+Diagnostics=Diagnostieken
+Disks=Schijven
+Display Settings=Beeldinstellingen
+End-User License Agreement=Licentieovereenkomst voor eindgebruikers
+Enter URL of language pack XML file=Voer URL in van taalpakket XML bestand
+Error accessing your physical USB Flash boot device=Fout opgetreden bij fysieke toegang tot USB Flash opslag
+EULA=EULA
+Event=Voorval
+Expiration=Vervaltijd
+Extend=Verlengen
+extended=verlengd
+Get Trial Key=Krijg Proefsleutel
+Hardware Profile=Hardware Profiel
+Hide Details=Verberg Details
+If you do not receive an email, please check your spam or junk-email folder=Als er geen email is ontvangen, controleer de spam of junk-email mappen
+Importance=Importantie
+Important=Belangrijk
+Install=Installeren
+Installed languages=Geïnstalleerde talen
+Invalid Trial Installation=Ongeldige *Proefsleutel* installatie
+It will collect all of the system hardware information, remove any serial numbers, and securely upload it to LimeTech=Het verzamelt alle informatie over de systeem hardware, en stuurt dit op een veilige manier naar Limetech
+Key file URL=URL van sleutelbestand
+Language support added=Taalondersteuning toegevoegd
+Language support deleted=Taalondersteuning verwijderd
+Language=Taal
+Missing Key File=Ontbrekend Sleutelbestand
+Missing Language=Ontbrekende taal
+Network Settings=Netwerkinstellingen
+New Config=Nieuwe Config
+New Permissions=Nieuwe Rechten
+No personal information such as user names, passwords, or any other file contents is included in the hardware profile=Er is geen persoonlijke informatie inbegrepen in het hardware profiel, zoals gebruikersnamen, wachtwoorden, of andere bestanden
+normal=normaal
+Only ZIP files are allowed=Enkel ZIP bestanden zijn toegestaan
+Page Map=Landkaart
+Parity slots=Pariteit sloten
+Please check your=Controleer de
+Please select a language before proceeding=Selecteer een taal om verder te gaan
+Please=Alstublieft
+Preserve current assignments=Onthoud huidige toekenningen
+previous=vorige
+Privacy Policy=Privacybeleid
+Processes=Processen
+Purchase Key=Sleutel Kopen
+Registered GUID=Geregistreerde GUID
+Registered on=Geregistreerd op
+Registered to=Geregistreerd voor
+registering USB Flash GUID=bij het registreren van de USB Flash GUID
+Release has been withdrawn=Uitgave is ingetrokken
+Remove the installed language=Verwijder de geïnstalleerde taal
+Replaceable=Vervangbaar
+Request Extension=Vraag Verlenging
+Request Trial Extension=Vraag Proefverlenging aan
+Restore=Herstellen
+See=Zie
+Select language file=Selecteer taalbestand
+Select language=Selecteer een taal
+Show Details=Toon Details
+slots=sloten
+Subject=Onderwerp
+System Devices=Systeem Apparaten
+System Update Check=Systeem Updaten Controle
+Text=Tekst
+Thank you for choosing Unraid OS=Bedankt voor het kiezen van Unraid OS
+Thank you for registering USB Flash GUID=Bedankt voor de registratie van de USB Flash GUID
+Thank you for trying Unraid OS=Bedankt voor het uitproberen van Unraid OS
+The registered GUID does not match the USB Flash boot device GUID=De geregistreerde GUID komt niet overeen met de GUID van de USB Flash opslag
+There is a physical problem accessing your USB Flash boot device=Er is een fysiek probleem opgetreden bij de toegang tot de USB Flash opslag
+this may take several minutes=dit kan enkele minuten duren
+This release has been withdrawn for use with Trial keys=Deze uitgave van Unraid OS is ingetrokken voor gebruik met *Proefsleutels*
+This server has %s attached storage device=Deze server heeft %s aangesloten opslagapparaat
+This server has %s attached storage devices=Deze server heeft %s aangesloten opslagapparaten
+This utility is used for troubleshooting purposes=Deze utiliteit wordt gebruikt voor het oplossen van problemen
+This will delete all notification files=Dit verwijderd alle meldingen
+This will update folder file permissions=Dit zal map- & bestandsrechten bijwerken
+Time=Tijd
+To install a registration key, paste the key file URL in the box below and click Install Key=Om een registratiesleutel te installeren, plak de URL van het sleutelbestand in het kader hieronder en druk op **Sleutel Installeren**
+to select your language=om uw taal te kiezen
+To support more storage devices as your server grows, click Upgrade Key below=Om meer opslagapparaten te ondersteunen als uw server groeit, druk op *Upgraden Sleutel*
+Trial key expires on=***Proefsleutel*** verloopt op
+Trial=Proef
+Update OS=Updaten OS
+Upgrade Key=Upgraden Sleutel
+uploading hardware information=bezig met versturen van hardware informatie
+Uploading=Bezig met uploaden
+Use this to develop language packs=Gebruik dit voor taalpakket ontwikkeling
+Use this to install official language packs=Gebruik dit voor installeren van officiële taalpakketten
+User Shares=Gebruikersmappen
+User=Gebruiker
+Vars=Inzicht
+warning=waarschuwing
+webGUI=webGUI
+When received, please paste the URL into the Key file URL box and=Wanneer ontvangen, plak de URL in het <i>Sleutelbestand URL</i> kader en
+Wrong File Extension=Verkeerde bestandsextensie
+You havent sent Limetech your hardware profile yet=Het hardware profiel is nog niet naar Limetech verstuurd
+Your hardware profile was last submitted on=Het hardware profiel was laatst verstuurd op
+Your Trial key has expired=De *Proefsleutel* is verlopen
+Your Trial key requires an internet connection=Een *Proefsleutel* heeft een internetverbinding nodig
+
+:plug1
+Deze utiliteit wordt gebruikt voor het oplossen van problemen. Het verzamelt systeem informatie en configuratie bestanden, en pakt deze bestanden samen in een enkel ZIP bestand, welke locaal wordt opgeslagen.
+Vervolgens kan het ZIP bestand worden toegevoegd in de correspondentie met Limetech of het Unraid forum.
+
+Dit helpt anderen om sneller inzage te krijgen in uw systeem en betere ondersteuning te geven voor de problemen.
+De volgende informatie en configuratie bestanden worden verzameld:
+:end
+
+:plug2
++ */config*
+  <br>kopieer alle *\*.cfg bestanden*, *go* bestand en het *super.dat* bestand. Dit zijn configuratie bestanden.
++ */config/shares*
+  <br>kopieer alle *\*.cfg* bestanden. Dit zijn bestanden met instellingen voor gebruikersmappen.
++ *Syslog bestand(en)*
+  <br>kopieer het huidige *syslog* bestand en eventuele vorige *syslog* bestanden.
++ *Systeem*
+  <br>sla de uitvoer op van de volgende commandos:
+  <br>lsscsi, lspci, lsusb, free, lsof, ps, ethtool & ifconfig.
+  <br>overzicht van iommu groepen.
+  <br>overzicht van command line parameters (bv pcie acs override, pci stubbing, etc).
+  <br>sla systeem variabelen op.
++ *SMART reportages*
+  <br>sla een SMART reportage of van elke individuele schijf aanwezig in het systeem.
++ *Docker*
+  <br>sla de volgende bestanden op *docker.log*, *libvirtd.log* en *libvirt/qemu/\*.log*.
+:end
+
+:plug3
+Druk op **Downloaden** om het verzamelingsproces te starten en geef de browser de instructie om het zip bestand lokaal op te slaan.
+
+*Er wordt geen persoonlijke informatie inbegrepen door Unraid OS, zoals gebruikersnamen, wachtwoorden, of bestanden anders dan hierboven vermeld;
+echter de servernaam, IP adres en gebruikersmapnamen zijn **wel** inbegrepen.*
+
+*Letop dat plugins van 3de partijen **mogelijk** persoonlijke informatie opslaan die specifiek zijn aan de configuratie bestanden van de plugin of eventuele uitvoer naar het systeem logbestand.*
+
+*Gebruik* **Maak diagnostieken anoniem** *wanneer het diagnostiekenbestand op het publieke forum wordt gezet. In privé communicatie met Limetech is het aanbevolen om geen anonimiteit te gebruiken en alle informatie onveranderd op te slaan.*
+:end
+
+:plug4
+Deze utiliteit zet de array schijf informatie terug, zodat het lijkt dat alle schijven "Nieuw" zijn, alsof het een nieuwe server betreft.
+
+Dit is handig wanneer meerdere schijven zijn toegevoegd of verwijderd en de wens bestaat om de pariteit te herbouwen, gebaseerd op een nieuwe configuratie.
+
+Gebruik de *Onthoud huidige toekenningen* selectie om de gewenste schijfsloten voor in te vullen **nadat** de array opslag is teruggezet.
+Standaard worden *geen* schijfsloten vooringevuld.
+
+**GEBRUIK DEZE UTILITEIT NIET OM EEN FOUTIEVE SCHIJF TE HERSTELLEN** - het doet het tegenovergestelde
+en maakt het juist **onmogelijk** om een bestaande foutieve schijf te herstellen - u bent gewaarschuwd!
+:end
+
+:plug5
+Dit is een verplichte enkelmalige actie die moet worden gedaan na het upgraden van een pre-5.0 Unraid server uitgave naar Unraid v5 of later.
+Selecteer **ALLE SCHIJVEN** om deze actie eenmalig te doen.
+
+Deze utiliteit is ook handig voor het herstellen van standaard eigenaarschap/rechten voor bestanden en mappen, wanneer gebruik wordt gemaakt van Active Directory integratie.
+
+Deze utiliteit start een achtergrond proces welke alle geselecteerde data/cache schijven of alle geselecteerde gebruikersmappen doorloopt
+en eigenaarschap van bestanden en mappen verandert naar *nobody/users* (dwz. uid/gid naar 99/100) en de rechten als volgt:
+:end
+
+:plug6
+Voor mappen:
+  drwxrwxrwx
+
+Voor lees/schrijf bestanden:
+  -rw-rw-rw-
+
+Voor lees bestanden:
+  -r--r--r--
+:end
+
+:plug7
+Druk op **Starten** om een venster te openen en het achtergrond proces te starten.
+
+Sluiten van het venster zal het achtergrond process termineren voordat het klaar is - wachten dus. Dit proces kan lang duren wanneer er heel veel bestanden zijn.
+
+Letop: deze utiliteit kan een negatief effect hebben op docker containers wanneer de rechten van de 'appdata' map worden aangepast.
+:end
+
+:plug8
+De server zal niet bruikbaar zijn zolang geen registratie sleutel is gekocht of een gratis 30 dagen *Proefsleutel* is geïnstalleerd.
+Een *Proefsleutel* geeft toegang tot alle functionaliteit van een *Pro* registratie sleutel.
+
+Registratie sleutels zijn permanent gebonden aan het serienummer (GUID) van de USB Flash opslag. Gebruik een goede kwaliteits USB van tenminste 1 GB groot.
+
+Letop: USB geheugenkaart lezers zijn in het algemeen **niet** ondersteund, omdat deze geen unieke serienummers bevatten.
+:end
+
+:plug9
++ Zorg ervoor dat de [server tijd](DateTime) nauwkeurig is binnen 5 minuten.
++ Zorg ervoor dat er een [DNS server](NetworkSettings) is opgegeven.
+:end
+
+:plug10
+De *Proefsleutel* bevat alle functionaliteit en apparaatondersteuning van een *Pro* registratie sleutel.
+
+Nadat de *Proefsleutel* is komen te vervallen, zal de server nog steeds **normaal functioneren** totdat de array opslag wordt **Gestopt**</code>.
+
+Op dit moment, kan er een registratie sleutel worden gekocht of de proeftijd worden verlengd.
+:end
+
+:plug11
+Om Unraid OS te blijven gebruiken, moet een registratie sleutel worden gekocht. Anderzijds kan een proeftijdverlenging worden aangevraagd.
+
+De meeste proeftijdverlengingsaanvragen worden onmiddelijk verwerkt, maar houdt rekening met één werkdag voor het ontvangen van de sleutel.
+:end
+
+:plug12
+Het is niet mogelijk een *Proefsleutel* te gebruiken bij een bestaande Unraid OS installatie.
+
+Een overeenkomstige registratie sleutel kan worden gekocht voor deze USB opslag om verder te kunnen met de installatie.
+
+Voor meer informatie, [Contacteer Support](https://lime-technology.com/contact).
+:end
+
+:plug13
+Het lijkt erop dat het registratie sleutelbestand verminkt is of ontbreekt. Het sleutelbestand bevindt zich in de
+[config](/Registration/Browse?dir&#61;/boot/config) map van de USB Flash opslag.
+
+Wanneer er geen reserverkopie is van het registratie sleutelbestand, [Contacteer Support](https://lime-technology.com/contact).
+
+Indien dit een *Proef* installatie is, dan kan een registratie sleutel worden gekocht.
+:end
+
+:plug14
+*Proef* installaties zijn alleen geldig met een origineel geregistreerde USB Flash opslag.
+
+Om verder te kunnen met deze installatie van deze USB Flash opslag, kan een registratie sleutel worden gekocht.
+:end
+
+:plug15
+Het registratie sleutelbestand komt niet overeen met de USB Flasg opslag.
+Kopieer het juiste sleutelbestand naar de [config](/Registration/Browse?dir&#61;/boot/config) map
+op de USB Flash opslag.
+
+Wanneer er geen reserverkopie is van het registratie sleutelbestand, [Contacteer Support](https://lime-technology.com/contact).
+
+Wanneer de registratie sleutel moet worden vervangen met een nieuwe sleutel toegekend aan deze USB Flash opslag, druk op *Sleutel Kopen*.
+Een originele sleutel kan op elk gewenst moment worden vervangen.
+
+Daarna kan een vervangings sleutel opnieuw worden vervangen na één jaar. Als een vervangings sleutel eerder nodig is, [Contacteer Support](https://lime-technology.com/contact).
+
+**Letop** Het vervangen van een registratie sleutel resulteert in een permanente *zwarte lijst* van de vorige USB Flash GUID.
+:end
+
+:plug16
+Deze USB Flash opslag staat op een *zwarte lijst*. Dit kan gebeuren als resultaat van een overgang van de registratie sleutel naar
+een vervangings USB Flash opslag, en het systeem is opgestart met de oude USB Flash opslag.
+
+Een USB Flash opslag kan ook op de *zwarte lijst* staan als het geen serienummer heeft of als het serienummer niet uniek is
+(dit is gebruikelijk bij USB kaartlezers).
+
+Voor meer informatie, [Contacteer Support](https://lime-technology.com/contact).
+:end

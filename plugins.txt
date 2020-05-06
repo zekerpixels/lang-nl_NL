@@ -1,0 +1,43 @@
+%s An update is available=%s: Een update is beschikbaar.
+anonymous=anoniem
+Author=Auteur
+Check For Updates=Zoek naar updates
+Click here to install version %s=Versie installeren
+DOWNGRADE TO VERSION=DOWNGRADEN NAAR VERSIE
+Enter URL of remote plugin file or local plugin file=Voer de URL in van een pluginbestand of selecteer een lokaal pluginbestand
+ERROR=FOUT
+Install Plugin=Plugin Installeren
+install=installeren
+Installed Plugins=Geïnstalleerde plugins
+Installing Update=Bezig met installeren van update
+need check=check nodig
+Next=Beta
+No release notes available=Geen uitgave-opmerkingen beschikbaar
+Plugin File=Pluginbestand
+Plugin Update Check=Plugin Update Controle
+Plugin=Plugin
+Release Notes=Uitgifte notities
+remove=verwijderen
+Select local plugin file=Selecteer lokale pluginbestand
+Stable=Stabiel
+STALE=OUD
+Support Thread=Hulppagina
+Uninstall=Deïnstalleer
+Update All Plugins=Update alle plugins
+Upgrade=Upgraden
+View Release Notes=Bekijk uitgifte notities
+
+:help1
+> To download and install a plugin, enter the plg file URL and click **Install**. A window will open
+> that displays install progress. Do not close this window until install has completed. You may also specify
+> the local file name of an extension.
+:end
+
+:help2
+> These plugins were not installed because of some kind of installation error.  You should delete these
+> plugins and then **reboot** your server.*
+:end
+
+:help3
+> These plugins were not installed because newer code already exists.  It is safe to simply delete these.
+:end

@@ -1,0 +1,218 @@
+Access Mode=Toegangsmodus
+Add another Path, Port, Variable, Label or Device=Toevoegen van Pad, Poort, Variabele, Label of Apparaat
+Add Configuration=Configuratie Toevoegen
+Add=Toevoegen
+Always=Altijd
+App to Host=App naar Host
+Application=Applicatie
+apply update=bijwerken
+Array must be Started to view Docker containers=Array opslag moet zijn **Gestart** om Docker containers te zien
+Are you sure=Bent u zeker
+Autostart=Autostart
+Back=Terug
+Backup=Backup
+Beta=Beta
+Books=Boeken
+By=Door
+Categories=Categorieën
+Check for Updates=Zoek voor Updates
+Cloud=Cloud
+Config Type=Config type
+Configuration not found=Configuratie niet gevonden
+Connection Type=Connectie type
+Console shell command=Console shell commando
+Container ID=Container ID
+Container Path=Container pad
+Container Port=Container poort
+Container Size=Container maat
+Container=Container
+CPU Memory load=CPU & Geheugen
+CPU Pinning=CPU Klemming
+Created=Gemaakt
+Default Value=Standaard waarde
+Device=Apparaat
+Display=Afbeelden
+DNS=DNS
+Docker Hub URL=Docker Hub URL
+Docker Service failed to start=Docker-dienst kan niet worden gestart
+Donation Link=Donatie link
+Donation Text=Donatie tekst
+Downloaders=Downloaders
+Edit Configuration=Configuratie Bewerken
+Exited=Verlaten
+Extra Parameters=Extra parameters
+Fixed IP address=Vast IP adres
+force update=dwing bijwerken
+FTP=FTP
+Game Servers=Spelletjes
+healthy=gezond
+Hide Buttons=Verberg knoppen
+Hide docker allocations=Verberg docker toekenningen
+Hide more settings=Verberg meer instellingen
+Home Automation=Domotica
+Host Path=Host pad
+Host Port=Host poort
+HT=HT
+Icon URL=Icon URL
+Image ID=Image ID
+Key=Teken
+Label=Label
+latest=laatste
+Management=Management
+MediaApp=MediaApp
+MediaServer=MediaServer
+Messenger=Boodschapper
+Missing parameters=Ontbrekende parameters
+Music-Muziek
+Network Type=Netwerk type
+No Docker containers installed=Geen Docker containers geïnstalleerd
+of=van
+orphan image=Wees-image
+Other=Anders
+Overview=Overzicht
+Path=Pad
+Pause All=Alles pauzeren
+Photos=Fotos
+Port Mappings=Poortindeling
+Port=Poort
+Post Arguments=Meer argumenten
+Privileged=Bevoorrecht
+Productivity=Productiviteit
+Project Page=Projectpagina
+Proxy=Proxy
+Pulling image=Image ophalen
+Read Only - Shared=Alleen Lezen - Gedeeld
+Read Only - Slave=Alleen Lezen - Slaaf
+Read Only=Alleen Lezen
+ReadWrite - Shared=Lezen/Schrijven - Gedeeld
+ReadWrite - Slave=Lezen/Schrijven - Slaaf
+rebuild ready=herbouw klaar
+rebuilding=herbouwen
+Remove template=Sjabloon verwijderen
+Removing container=Container verwijderen
+Removing orphan image=Wees-image verwijderen
+Repository=Magazijn
+Required=Verplicht
+Resume All=Alles hervatten
+Save=Opslaan
+Select a template=Selecteer een sjabloon
+Select categories=Selecteer categorieën
+Show docker allocations=Toon docker toekenningen
+Show more settings=Toon meer instellingen
+Stable=Stabiel
+Start All=Alles starten
+starting up containers=containers opstarten
+Stop All=Alles stoppen
+Stopping container=Container stoppen
+Successfully removed container=Container succesvol verwijderd
+Successfully removed orphan image=Wees-image succesvol verwijderd
+Successfully stopped container=Container succesvol gestopt
+Support Thread=Ondersteuningsdraad
+Template repositories=Sjabloonopslagplaatsen
+Template URL=Sjabloon URL
+Template=Sjabloon
+The command failed=De opdracht is mislukt
+The command finished successfully=De opdracht is succesvol uitgevoerd
+TOTAL DATA PULLED=TOTAAL GEGEVENS OPGEHAALD
+Unknown action=Onbekende actie
+Update All=Alles bijwerken
+update ready=update klaar
+Value=Waarde
+Variable=Variabele
+Video=Video
+Voip=Voip
+Volume Mappings=Volume indeling
+wait=wacht
+Was this container created using this plugin=Is deze container gemaakt mbv deze plugin
+Web=Web
+WebUI=Venster
+Writable=Schrijfbaar
+
+:help1
+> Templates are a quicker way to setting up Docker Containers on your Unraid server.  There are two types of templates:
+>
+> **Default templates**<br>
+> When valid repositories are added to your Docker Repositories page, they will appear in a section on this drop down for you to choose (master categorized by author, then by application template).
+> After selecting a default template, the page will populate with new information about the application in the Description field, and will typically provide instructions for how to setup the container.
+> Select a default template when it is the first time you are configuring this application.
+>
+> **User-defined templates**<br>
+> Once you've added an application to your system through a Default template,
+> the settings you specified are saved to your USB flash device to make it easy to rebuild your applications in the event an upgrade were to fail or if another issue occurred.
+> To rebuild, simply select the previously loaded application from the User-defined list and all the settings for the container will appear populated from your previous setup.
+> Clicking create will redownload the necessary files for the application and should restore you to a working state.
+> To delete a User-defined template, select it from the list above and click the red X to the right of it.
+:end
+
+:help2
+> Give the container a name or leave it as default.
+:end
+
+:help3
+> A description for the application container.  Supports basic HTML mark-up.
+:end
+
+:help4
+> The repository for the application on the Docker Registry.  Format of authorname/appname.
+> Optionally you can add a : after appname and request a specific version for the container image.
+:end
+
+:help5
+> Link to a support thread on Lime-Technology's forum.
+:end
+
+:help6
+> Link to the project page (eg: www.plex.tv)
+:end
+
+:help7
+> Text to appear on Donation Links Within The Apps Tab
+:end
+
+:help8
+> Link to the donation page.  If using donation's, both the image and link must be set
+:end
+
+:help9
+> The path to the container's repository location on the Docker Hub.
+:end
+
+:help10
+> This URL is used to keep the template updated.
+:end
+
+:help11
+> Link to the icon image for your application (only displayed on dashboard if Show Dashboard apps under Display Settings is set to Icons).
+:end
+
+:help12
+> When you click on an application icon from the Docker Containers page, the WebUI option will link to the path in this field.
+> Use [IP] to identify the IP of your host and [PORT:####] replacing the #'s for your port.
+:end
+
+:help13
+> If you wish to append additional commands to your Docker container at run-time, you can specify them here.<br>
+> For all possible Docker run-time commands, see here: <a href="https://docs.docker.com/reference/run/" target="_blank">https://docs.docker.com/reference/run/</a>
+:end
+
+:help14
+> If you wish to append additional arguments AFTER the container definition, you can specify them here.
+> The content of this field is container specific.
+:end
+
+:help15
+> Checking a CPU core(s) will limit the container to run on the selected cores only. Selecting no cores lets the container run on all available cores (default)
+:end
+
+:help16
+> If the Bridge type is selected, the application’s network access will be restricted to only communicating on the ports specified in the port mappings section.
+> If the Host type is selected, the application will be given access to communicate using any port on the host that isn’t already mapped to another in-use application/service.
+> Generally speaking, it is recommended to leave this setting to its default value as specified per application template.
+>
+> IMPORTANT NOTE:  If adjusting port mappings, do not modify the settings for the Container port as only the Host port can be adjusted.
+:end
+
+:help17
+> For containers that require the use of host-device access directly or need full exposure to host capabilities, this option will need to be selected.
+> For more information, see this link: <a href="https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities" target="_blank">https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities</a>
+:end
