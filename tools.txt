@@ -123,7 +123,7 @@ Your hardware profile was last submitted on=Het hardware profiel was laatst vers
 Your Trial key has expired=De *Proefsleutel* is verlopen
 Your Trial key requires an internet connection=Een *Proefsleutel* heeft een internetverbinding nodig
 
-:plug1
+:diagnostics_1_plug:
 Deze utiliteit wordt gebruikt voor het oplossen van problemen. Het verzamelt systeem informatie en configuratie bestanden, en pakt deze bestanden samen in een enkel ZIP bestand, welke locaal wordt opgeslagen.
 Vervolgens kan het ZIP bestand worden toegevoegd in de correspondentie met Limetech of het Unraid forum.
 
@@ -131,7 +131,7 @@ Dit helpt anderen om sneller inzage te krijgen in uw systeem en betere ondersteu
 De volgende informatie en configuratie bestanden worden verzameld:
 :end
 
-:plug2
+:diagnostics_2_plug:
 + */config*
   <br>kopieer alle *\*.cfg bestanden*, *go* bestand en het *super.dat* bestand. Dit zijn configuratie bestanden.
 + */config/shares*
@@ -150,7 +150,7 @@ De volgende informatie en configuratie bestanden worden verzameld:
   <br>sla de volgende bestanden op *docker.log*, *libvirtd.log* en *libvirt/qemu/\*.log*.
 :end
 
-:plug3
+:diagnostics_3_plug:
 Druk op **Downloaden** om het verzamelingsproces te starten en geef de browser de instructie om het zip bestand lokaal op te slaan.
 
 *Er wordt geen persoonlijke informatie inbegrepen door Unraid OS, zoals gebruikersnamen, wachtwoorden, of bestanden anders dan hierboven vermeld;
@@ -161,7 +161,7 @@ echter de servernaam, IP adres en gebruikersmapnamen zijn **wel** inbegrepen.*
 *Gebruik* **Maak diagnostieken anoniem** *wanneer het diagnostiekenbestand op het publieke forum wordt gezet. In privé communicatie met Limetech is het aanbevolen om geen anonimiteit te gebruiken en alle informatie onveranderd op te slaan.*
 :end
 
-:plug4
+:newconfig_plug:
 Deze utiliteit zet de array schijf informatie terug, zodat het lijkt dat alle schijven "Nieuw" zijn, alsof het een nieuwe server betreft.
 
 Dit is handig wanneer meerdere schijven zijn toegevoegd of verwijderd en de wens bestaat om de pariteit te herbouwen, gebaseerd op een nieuwe configuratie.
@@ -173,7 +173,7 @@ Standaard worden *geen* schijfsloten vooringevuld.
 en maakt het juist **onmogelijk** om een bestaande foutieve schijf te herstellen - u bent gewaarschuwd!
 :end
 
-:plug5
+:newperms_1_plug:
 Dit is een verplichte enkelmalige actie die moet worden gedaan na het upgraden van een pre-5.0 Unraid server uitgave naar Unraid v5 of later.
 Selecteer **ALLE SCHIJVEN** om deze actie eenmalig te doen.
 
@@ -183,7 +183,7 @@ Deze utiliteit start een achtergrond proces welke alle geselecteerde data/cache 
 en eigenaarschap van bestanden en mappen verandert naar *nobody/users* (dwz. uid/gid naar 99/100) en de rechten als volgt:
 :end
 
-:plug6
+:newperms_2_plug:
 Voor mappen:
   drwxrwxrwx
 
@@ -194,7 +194,7 @@ Voor lees bestanden:
   -r--r--r--
 :end
 
-:plug7
+:newperms_3_plug:
 Druk op **Starten** om een venster te openen en het achtergrond proces te starten.
 
 Sluiten van het venster zal het achtergrond process termineren voordat het klaar is - wachten dus. Dit proces kan lang duren wanneer er heel veel bestanden zijn.
@@ -202,7 +202,7 @@ Sluiten van het venster zal het achtergrond process termineren voordat het klaar
 Letop: deze utiliteit kan een negatief effect hebben op docker containers wanneer de rechten van de 'appdata' map worden aangepast.
 :end
 
-:plug8
+:registration_1_plug:
 De server zal niet bruikbaar zijn zolang geen registratie sleutel is gekocht of een gratis 30 dagen *Proefsleutel* is geïnstalleerd.
 Een *Proefsleutel* geeft toegang tot alle functionaliteit van een *Pro* registratie sleutel.
 
@@ -211,12 +211,12 @@ Registratie sleutels zijn permanent gebonden aan het serienummer (GUID) van de U
 Letop: USB geheugenkaart lezers zijn in het algemeen **niet** ondersteund, omdat deze geen unieke serienummers bevatten.
 :end
 
-:plug9
+:registration_2_plug:
 + Zorg ervoor dat de [server tijd](DateTime) nauwkeurig is binnen 5 minuten.
 + Zorg ervoor dat er een [DNS server](NetworkSettings) is opgegeven.
 :end
 
-:plug10
+:registration_3_plug:
 De *Proefsleutel* bevat alle functionaliteit en apparaatondersteuning van een *Pro* registratie sleutel.
 
 Nadat de *Proefsleutel* is komen te vervallen, zal de server nog steeds **normaal functioneren** totdat de array opslag wordt **Gestopt**</code>.
@@ -224,13 +224,13 @@ Nadat de *Proefsleutel* is komen te vervallen, zal de server nog steeds **normaa
 Op dit moment, kan er een registratie sleutel worden gekocht of de proeftijd worden verlengd.
 :end
 
-:plug11
+:registration_4_plug:
 Om Unraid OS te blijven gebruiken, moet een registratie sleutel worden gekocht. Anderzijds kan een proeftijdverlenging worden aangevraagd.
 
 De meeste proeftijdverlengingsaanvragen worden onmiddelijk verwerkt, maar houdt rekening met één werkdag voor het ontvangen van de sleutel.
 :end
 
-:plug12
+:registration_5_plug:
 Het is niet mogelijk een *Proefsleutel* te gebruiken bij een bestaande Unraid OS installatie.
 
 Een overeenkomstige registratie sleutel kan worden gekocht voor deze USB opslag om verder te kunnen met de installatie.
@@ -238,7 +238,7 @@ Een overeenkomstige registratie sleutel kan worden gekocht voor deze USB opslag 
 Voor meer informatie, [Contacteer Support](https://lime-technology.com/contact).
 :end
 
-:plug13
+:registration_6_plug:
 Het lijkt erop dat het registratie sleutelbestand verminkt is of ontbreekt. Het sleutelbestand bevindt zich in de
 [config](/Registration/Browse?dir&#61;/boot/config) map van de USB Flash opslag.
 
@@ -247,13 +247,13 @@ Wanneer er geen reserverkopie is van het registratie sleutelbestand, [Contacteer
 Indien dit een *Proef* installatie is, dan kan een registratie sleutel worden gekocht.
 :end
 
-:plug14
+:registration_7_plug:
 *Proef* installaties zijn alleen geldig met een origineel geregistreerde USB Flash opslag.
 
 Om verder te kunnen met deze installatie van deze USB Flash opslag, kan een registratie sleutel worden gekocht.
 :end
 
-:plug15
+:registration_8_plug:
 Het registratie sleutelbestand komt niet overeen met de USB Flasg opslag.
 Kopieer het juiste sleutelbestand naar de [config](/Registration/Browse?dir&#61;/boot/config) map
 op de USB Flash opslag.
@@ -268,7 +268,7 @@ Daarna kan een vervangings sleutel opnieuw worden vervangen na één jaar. Als e
 **Letop** Het vervangen van een registratie sleutel resulteert in een permanente *zwarte lijst* van de vorige USB Flash GUID.
 :end
 
-:plug16
+:registration_9_plug:
 Deze USB Flash opslag staat op een *zwarte lijst*. Dit kan gebeuren als resultaat van een overgang van de registratie sleutel naar
 een vervangings USB Flash opslag, en het systeem is opgestart met de oude USB Flash opslag.
 
