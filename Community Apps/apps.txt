@@ -1,4 +1,4 @@
-# Translation Credit.  Will appear in CA's credits
+; Translation Credit.  Will appear in CA's credits
 translationCredit=Bergware (Dutch)
 Cancel=Annuleren
 
