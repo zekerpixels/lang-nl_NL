@@ -43,3 +43,12 @@ WebUI=Venster
 Yes, delete it=Ja, verwijderen
 Yes, update it=Ja, bijwerken
 Yes=Ja
+
+; footer messages
+Array Starting=Array opslag starten
+Array Stopping=Array opslag stoppen
+Mounting disks=Schijven koppelen
+Spinning up all drives=Alle schijven opstarten
+Starting services=Diensten starten
+Stopping services=Diensten stoppen
+Unmounting disks=Schijven ontkoppelen
