@@ -1,7 +1,7 @@
 Hide Deprecated Applications=Verouderde applicaties verbergen
 This setting hides deprecated applications from the list of available apps Deprecated apps will still however display within the installed and previous apps sections=Deze instelling verbergt verouderde applicaties uit de lijst van beschikbare apps  Verouderde apps worden nog wel getoond in de geïnstalleerde en vorige apps secties
 Hide Incompatible Applications=Incompatibele applicaties verbergen
-This setting will hide applications that are listed as being incompatible with your version of unRaid=Deze instelling verbergt applicaties die niet verenigbaar zijn met deze versie van Unraid
+This setting will hide applications that are listed as being incompatible with your version of Unraid=Deze instelling verbergt applicaties die niet verenigbaar zijn met deze versie van Unraid
 Enable Reinstall Default=Standaard Herinstalleren inschakelen
 This option enables another button on the cards and popups which will allow you to reinstall an installed application using its default template values This option can be confusing at times, and is only generally used if you wish to install and have an application running twice simultaneously=Deze optie toont een andere toets op kaarten en pop-ups, die het mogelijk maakt om reeds geïnstalleerde applicaties te herinstalleren met een standaardsjabloon  Dez optie kan soms verwarrend zijn, en wordt in het algemeen alleen gebruikt om te installeren wanneer een applicatie twee keer gelijktijdig draait
 Enable additional search results from dockerHub=Meer zoekresultaten van dockerHub inschakelen
