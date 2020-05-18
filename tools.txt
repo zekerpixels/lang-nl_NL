@@ -125,6 +125,7 @@ Your Trial key requires an internet connection=Een *Proefsleutel* heeft een inte
 
 ; Sysdevs
 A reboot is required to apply changes=Een herstart is nodig om de wijzigingen door te voeren
+ALERT=LETOP
 Bind selected to VFIO at Boot=Selectie verbinden met VFIO bij opstarten
 Changes saved=Wijzigingen opgeslagen
 Function Level Reset FLR supported=Functie Nivo Herzetten (FLR) wordt ondersteund
