@@ -127,16 +127,20 @@ Your Trial key requires an internet connection=Een *Proefsleutel* heeft een inte
 A reboot is required to apply changes=Een herstart is nodig om de wijzigingen door te voeren
 ALERT=LETOP
 Bind selected to VFIO at Boot=Selectie verbinden met VFIO bij opstarten
+CPU Thread Pairings=CPU thread paren
 Changes saved=Wijzigingen opgeslagen
 Function Level Reset FLR supported=Functie Nivo Herzetten (FLR) wordt ondersteund
 In use by Unraid=In gebruik door Unraid
 Kernel driver in use vfio-pci=Kernelstuurprogramma in gebruik: vfio-pci
 No changes=Geen wijzigingen
+PCI Devices and IOMMU Groups=PCI apparaten en IOMMU groepen
 Reboot to take effect=Herstarten is vereist
+SCSI Devices=SCSI apparaten
 The below list doesnt not reflect the way IOMMU would naturally group devices=De onderstaande lijst geeft niet de manier weer hoe IOMMU apparaten natuurlijk zou groeperen
 This controller is bound to vfio, connected USB devices are not visible=Deze controller is verbonden met vfio, aangesloten USB apparaten zijn niet zichtbaar
 This controller is bound to vfio, connected drives are not visible=Deze controller is verbonden met vfio, aangesloten schijven zijn niet zichtbaar
 To see natural IOMMU groups for your hardware, go to the %sVM Manager%s page and set the PCIe ACS override setting to Disabled=Om de natuurlijke IOMMU groepen van de hardware te zien, ga naar de %sVM Manager%s pagina en zet de **PCIe ACS override** instelling uit
+USB Devices=USB apparaten
 Your system has booted with the PCIe ACS Override setting enabled=Het systeem was opnieuw gestart met de PCIe ACS Override instelling ingeschakeld
 
 :diagnostics_1_plug:
