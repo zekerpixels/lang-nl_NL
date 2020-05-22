@@ -1,10 +1,13 @@
 Add User=Gebruiker Aanmaken
 Add=Aanmaken
+Click to select PNG file=Drukken om een PNG bestand te selecteren
 Custom image=Aangepast image
+Description=Beschrijving
 Do not use reserved names=Gebruik geen gereserveerde namen
 Drag-n-drop a PNG file or click the image at the left=Sleep en zet een PNG bestand neer of druk op de banner links
 Edit User=Gebruiker Bewerken
 Invalid user name=Ongeldige gebruikersnaam
+Only PNG images are allowed=Enkel PNG images zijn toegestaan
 Password too long=Wachtwoord te lang
 Password=Wachtwoord
 Restore default image=Herstel standaard image
