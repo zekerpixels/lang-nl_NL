@@ -268,9 +268,9 @@ Ranked #%s=Geplaatst #%s
 Trending %s=Populair %s
 ; as in As of some date
 As of %s=(Vanaf %s)
-This application template has been blacklisted=This application / template has been blacklisted
-This application template has been deprecated=This application / template has been deprecated
-This application is not compatible with your version of Unraid=
+This application template has been blacklisted=Deze applicatie / sjabloon staat op de zwarte lijst
+This application template has been deprecated=Deze applicatie / sjabloon is verouderd
+This application is not compatible with your version of Unraid=Deze applicatie is niet compatibel met deze versie van Unraid
 Another browser tab or device has updated the displayed templates Some actions are not available=Een andere browser pagina of apparaat heeft de getoonde sjablonen bijgewerkt.  Sommige acties zijn niet beschikbaar
 Reinstall default=Herinstalleren (standaard)
 WebUI=WebUI
