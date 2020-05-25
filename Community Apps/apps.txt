@@ -21,7 +21,7 @@ Sort By Trend=Sorteer op trend
 Sort By Date Added=Sorteer op toegevoegde datum
 ; Initial disclaimer translations
 Disclaimer=Disclaimer
-All applications listed here are 3rd party additions to unRaid Neither the authors of Community Applications nor Limetech make any warranty as to the suitability of any application listed here=Alle hier vermelde applicaties zijn toevoegingen op Unraid van derde partijen. Noch de auteurs van Community Applications, noch Limetech geven enige garantie met betrekking tot de geschiktheid van de hier vermelde applicaties
+All applications listed here are 3rd party additions to Unraid Neither the authors of Community Applications nor Limetech make any warranty as to the suitability of any application listed here=Alle hier vermelde applicaties zijn toevoegingen op Unraid van derde partijen. Noch de auteurs van Community Applications, noch Limetech geven enige garantie met betrekking tot de geschiktheid van de hier vermelde applicaties
 Every attempt is made to ensure that only safe and compatible applications are present=Alles is eraan gedaan om ervoor te zorgen dat veilige en compatibele applicaties aanwezig zijn
 Application Policy=Applicatiebeleid
 I Understand=Ik begrijp het
@@ -317,7 +317,7 @@ Install plugin=Plugin installeren
 Click to go to the WebUI=Druk hier om naar de WebUI te gaan
 This application has been marked as being Beta=Deze applicatie is gemarkeerd als Beta
 This application template has been deprecated=Dit applicatiesjabloon is verouderd
-This application is not compatible with your version of unRaid=Deze applicatie is niet compatibel met deze versie van Unraid
+This application is not compatible with your version of Unraid=Deze applicatie is niet compatibel met deze versie van Unraid
 This application template has been blacklisted=Dit applicatiesjabloon staat op de zwarte lijst
 Search for more applications from %s=Zoeken naar meer applicaties van %s
 Click for more information=Druk voor meer informatie
