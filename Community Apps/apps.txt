@@ -268,13 +268,16 @@ Ranked #%s=Geplaatst #%s
 Trending %s=Populair %s
 ; as in As of some date
 As of %s=(Vanaf %s)
+This application template has been blacklisted=This application / template has been blacklisted
+This application template has been deprecated=This application / template has been deprecated
+This application is not compatible with your version of Unraid=
 Another browser tab or device has updated the displayed templates Some actions are not available=Een andere browser pagina of apparaat heeft de getoonde sjablonen bijgewerkt.  Sommige acties zijn niet beschikbaar
 Reinstall default=Herinstalleren (standaard)
 WebUI=WebUI
 Reinstall=Herinstalleren
 Install=Installeren
 Project=Project
-Install Using The Templates Default Tag='Installeer gebruikmakend van de sjabloon&#39;s Standaard tag'
+Install Using The Templates Default Tag=Installeer gebruikmakend van de sjabloon's Standaard tag
 Moderator Comments=Moderator Commentaar:
 Note not all authors keep up to date on change logs=Letop niet alle auteurs houden een wijzigingslog bij
 Note not all maintainers keep up to date on change logs=Letop niet alle onderhouders houden een wijzigingslog bij
@@ -337,7 +340,6 @@ Install Language Pack=Taalpakket Installeren
 Remove Language Pack=Taalpakket verwijderen
 Update Language Pack=Taalpakket bijwerken
 Installed Version=Geïnstalleerde versie
-
 
 ; Help Text
 This chooses how to sort the results=Dit kiest hoe de resultaten te sorteren
