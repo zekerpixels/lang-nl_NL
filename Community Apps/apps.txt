@@ -272,7 +272,7 @@ Install The Update=Update installeren
 ; as in you have the latest version already installed
 Latest Version=Laatste versie
 Multi Language Support=Ondersteuning voor meerdere talen
-; as in more than 100000 
+; as in more than 100000
 More than %s=Meer dan %s
 
 ; Graphs
