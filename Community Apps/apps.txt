@@ -55,7 +55,7 @@ Uninstall Application=Applicatie de-installeren
 Yes uninstall it=Ja, de-installeren
 
 ; Remove Private Application
-Remove Private Application=Privaat applicaties verwijderen
+Remove Private Application=Private applicatie verwijderen
 Yes, remove it=Ja, verwijderen
 
 ; App Pinning
@@ -84,8 +84,8 @@ No data was returned It is probable that another browser session has rebooted yo
 An error occurred.  Could not find any %s Apps=Een fout opgetreden. Kon geen enkele %s Apps finden
 Download of appfeed failed=Downloaden van de appfeed is mislukt
 Something really went wrong here=Iets verschrikkelijk fout hier
-Post the ENTIRE contents of this message in the Community Applications Support Thread=Post de GEHELE inhoud van dit bericht in de ondersteuningsdraad voor Community Applications
-Unknown error happened Please post a screenshot in the support thread of the Statistics screen=Onbekende fout opgetreden  Gelieve een screenshot te plaatsen in de ondersteuningsdraad van het Statistiekenscherm
+Post the ENTIRE contents of this message in the Community Applications Support Thread=Post de GEHELE inhoud van dit bericht in de hulplijn voor Community Applications
+Unknown error happened Please post a screenshot in the support thread of the Statistics screen=Onbekende fout opgetreden  Gelieve een screenshot te plaatsen in de hulplijn van het Statistiekenscherm
 Something really wrong happened Reloading the Apps tab will probably fix the problem=Iets ging verschrikkelijk fout  Herladen van de Apps pagina zal waarschijnlijk het probleem oplossen
 This plugin has a duplicated name from another plugin %s This will impact your ability to install both plugins simultaneously=Deze plugin heeft een dubbele naam met een andere plugin %s  Dit heeft invloed op beide plugins bij tegelijkertijd installeren
 
@@ -288,9 +288,9 @@ Setting installed applications to autostart=Instelling geïnstalleerde applicati
 Docker Application Installation finished=Docker applicatie installatie klaar
 
 ; Application Cards
-Private dockerHub Conversion=Private (dockerHub conversie)
+Private dockerHub Conversion=Privaat (dockerHub conversie)
 Go to the project page=Ga naar de projectpagina
-Go to the support thread=Ga naar de ondersteuningsdraad
+Go to the support thread=Ga naar de hulplijn
 Uninstall Application=Applicatie verwijderen
 Remove Private Application=Private applicatie verwijderen
 Remove Application From List=Applicatie verwijderen van lijst
@@ -326,18 +326,18 @@ Update Language Pack=Taalpakket bijwerken
 Installed Version=Geïnstalleerde versie
 
 ; Help Text
-This chooses how to sort the results=Dit kiest hoe de resultaten te sorteren
-These icons respectively will Install or Edit an application=Deze ikonen zullen achtereenvolgens een applicatie **Installeren of Bewerken**
+This chooses how to sort the results=Dit geeft aan hoe de resultaten te sorteren
+These icons respectively will Install or Edit an application=Deze ikonen zullen achtereenvolgens een applicatie **Installeren** of **Bewerken**
 Clicking these icons will take you to an applications GUI or settings=Klik op deze ikonen om naar de GUI van de applicatie of de instellingen te gaan
-This will update an application=Hiermee wordt een applicatie bijgewerkt
-This will take you to the appropriate support thread for an application=Dit brengt je bij de toepasselijke ondersteuningsdraad voor een applicatie
-This will immediately switch to the language=Hierdoor wordt direct overgeschakeld op de taal
-This will take you to the project page for an application=Dit brengt je bij de projectpagina voor een applicatie
+This will update an application=Dit werkt een applicatie bij
+This will take you to the appropriate support thread for an application=Dit brengt u bij de passende hulplijn voor een applicatie
+This will immediately switch to the language=Dit schakelt direct over naar de taal
+This will take you to the project page for an application=Dit brengt u bij de projectpagina voor een applicatie
 Clicking this icon will uninstall the application or delete it from the lists depending upon your current section=Druk op dit ikoon om de applicatie te verwijderen of weg te halen uit de lijsten, afhankelijk van de huidige sectie
 Clicking these icons will pin or unpin an application for later viewer from the Pinned Apps section=Druk op deze ikonen om de applicatie vast te zetten of los te maken voor het bekijken in de Pinned Apps sectie
-Clicking this will display more information about the application NOTE You can also click on the applications icon to display more information=Dit geeft meer informatie over de applicatie.  LETOP: Je kan ook op het ikoon van de applicatie zelf drukken voor meer informatie.
+Clicking this will display more information about the application NOTE You can also click on the applications icon to display more information=Dit geeft meer informatie over de applicatie.  LETOP: U kunt ook op het ikoon van de applicatie zelf drukken voor meer informatie.
 Clicking this will display any warnings or extra comments about the application=Dit geeft uitstaande waarschuwingen of extra commentaar over de applicatie
-On the previous apps section you can select multiple applications to install simultaneously=Op de vorige apps sectie, kunnen meerdere applicaties worden geselecteerd om tegelijkertijd te installeren
-This is the recommended version to install by the application author themselves=Dit is de aanbevolen versie van de applicatiemaker zelf, om te installeren
+On the previous apps section you can select multiple applications to install simultaneously=Op de vorige apps sectie kunnen meerdere applicaties worden geselecteerd om tegelijkertijd te installeren
+This is the recommended version to install by the application author themselves=Dit is de aanbevolen versie om te installeren van de applicatiemaker zelf
 For support for this plugin visit=Voor ondersteuning van deze plugin
 To view the policies Community Applications has=Om het beleid van Community Applications te zien
