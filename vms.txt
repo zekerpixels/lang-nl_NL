@@ -4,7 +4,7 @@
 Allocation=Toegewezen
 and if using graphics device passthrough it too needs UEFI=en als passthrough van grafische apparaten wordt gebruikt, dan is UEFI ook nodig
 Are you sure=Bent u zeker
-Array must be started to view Virtual Machines=Array opslag moet zijn **Gestart** om Virtuele Machines te zien
+Array must be started to view Virtual Machines=Schijfopslag moet zijn **Gestart** om Virtuele Machines te zien
 Autostart=Autostart
 Back=Terug
 Bus=Bus
@@ -22,7 +22,7 @@ define the amount memory=definieer de hoeveelheid geheugen
 define the maximum amount of memory=definieer de maximale hoeveelheid geheugen
 define type of cpu presented to this vm=definieer het type cpu welke aan deze vm wordt gepresenteerd
 description of virtual machine=beschrijving van de virtuele machine
-Disk devices=Schijfopslag
+Disk devices=Schijven
 Download Folder=Download map
 Download, Click and Select virtio drivers image=Downloaden, selecteer de virtio-stuurprogramma's
 Downloading=Downloaden
