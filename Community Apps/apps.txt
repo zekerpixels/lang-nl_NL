@@ -75,7 +75,6 @@ Yes, install it=Ja, installeren
 Yes, install them=Ja, installeren
 Cookies not enabled Plugins must be separately installed from docker applications=Cookies niet ingeschakeld  Plugins moeten apart van docker applicaties worden geïnstalleerd
 Docker applications will be installed utilizing the most recently saved template with no user input on your part=Docker applicaties worden geïnstalleerd gebruikmakend van het meest recent opgeslagen sjabloon zonder verdere gebruikersinvoer
-
 Updating Support Links=Ondersteuningsverwijzingen bijwerken
 Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=Klaar met installeren Als de KLAAR toets niet verschijnt, dan dient op de rode X rechtsboven te worden gedrukt
 
@@ -83,6 +82,7 @@ Finished Installing If the DONE button did not appear, then you will need to cli
 No data was returned It is probable that another browser session has rebooted your server Reloading this browser tab will probably fix this error=Geen data ontvangen Het is mogelijk dat een andere browsersessie de server heeft herstart Opnieuw laden van deze browserpagina zal het probleem vermoedelijk oplossen
 An error occurred.  Could not find any %s Apps=Een fout opgetreden. Kon geen enkele %s Apps finden
 Download of appfeed failed=Downloaden van de appfeed is mislukt
+; the %s here refers to a function being called
 Something really went wrong here=Iets verschrikkelijk fout hier
 Post the ENTIRE contents of this message in the Community Applications Support Thread=Post de GEHELE inhoud van dit bericht in de hulplijn voor Community Applications
 Unknown error happened Please post a screenshot in the support thread of the Statistics screen=Onbekende fout opgetreden  Gelieve een screenshot te plaatsen in de hulplijn van het Statistiekenscherm
