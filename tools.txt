@@ -176,7 +176,7 @@ Druk op **Downloaden** om het verzamelingsproces te starten en geef de browser d
 *Er wordt geen persoonlijke informatie inbegrepen door Unraid OS, zoals gebruikersnamen, wachtwoorden, of bestanden anders dan hierboven vermeld;
 echter de servernaam, IP adres en gebruikersmapnamen zijn **wel** inbegrepen.*
 
-*Letop dat plugins van 3de partijen **mogelijk** persoonlijke informatie opslaan die specifiek zijn aan de configuratie bestanden van de plugin of eventuele uitvoer naar het systeem logbestand.*
+*Letop dat plug-ins van 3de partijen **mogelijk** persoonlijke informatie opslaan die specifiek zijn aan de configuratie bestanden van de plugin of eventuele uitvoer naar het systeem logbestand.*
 
 *Gebruik* **Maak diagnostieken anoniem** *wanneer het diagnostiekenbestand op het publieke forum wordt gezet. In privé communicatie met Limetech is het aanbevolen om geen anonimiteit te gebruiken en alle informatie onveranderd op te slaan.*
 :end
