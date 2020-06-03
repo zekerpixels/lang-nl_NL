@@ -7,7 +7,7 @@ Happy New Year=Gelukkig nieuwjaar
 Happy Holidays from Andrew, Tracey, and family=Prettige vakantie van Andrew, Tracey en familie
 Please Enjoy Responsibly=Gelieve verantwoord genieten
 Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=Pop-up geblokkeerd CA gebruikt pop-ups voor bepaalde doeleinden  De server moet worden white-listed in de browser om pop-ups toe te staan
-Docker Service Not Enabled - Only Plugins Available To Be Installed Or Managed=Dockerdienst niet ingeschakeld - Enkel plug-ins zijn beschikbaar voor installatie of beheer
+Docker Service Not Enabled - Only Plugins Available To Be Installed Or Managed=Dockerdienst niet ingeschakeld - Enkel plugins zijn beschikbaar voor installatie of beheer
 Community Applications works best when cookies are enabled in your browser Certain features may not be available=Community Applications werkt het beste wanneer cookies zijn toegestaan in de browser  Sommige kenmerken zijn mogelijk niet beschikbaar
 Backup Server Active Some icons may not appear, and plugin installations may be affected=Backup server actief Sommige ikonen verschijnen mogelijk niet, en plugin installaties zijn mogelijk verhinderd
 
@@ -29,7 +29,7 @@ Installations of apps disabled You must accept the warning to be able to install
 Click here=Hier drukken
 
 ; Plugin Disclaimer
-Community Applications contains both docker containers and plugin applications Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=Community Applications bevatten zowel docker containers als plug-ins  Plug-ins zijn ontworpen voor besturingssysteem toevoegingen, en draaien met volledige rechten op het systeem en zijn duidelijk gemarkeerd binnen CA
+Community Applications contains both docker containers and plugin applications Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=Community Applications bevatten zowel docker containers als plugins  Plugins zijn ontworpen voor besturingssysteem toevoegingen, en draaien met volledige rechten op het systeem en zijn duidelijk gemarkeerd binnen CA
 Plugin Note=Plugin notitie
 
 ; Multi Install
@@ -72,7 +72,7 @@ Yes, install it=Ja, installeren
 
 ; Multi-install popup
 Yes, install them=Ja, installeren
-Cookies not enabled Plugins must be separately installed from docker applications=Cookies niet ingeschakeld  Plug-ins moeten apart van docker applicaties worden geïnstalleerd
+Cookies not enabled Plugins must be separately installed from docker applications=Cookies niet ingeschakeld  Plugins moeten apart van docker applicaties worden geïnstalleerd
 Docker applications will be installed utilizing the most recently saved template with no user input on your part=Docker applicaties worden geïnstalleerd gebruikmakend van het meest recent opgeslagen sjabloon zonder verdere gebruikersinvoer
 Updating Support Links=Ondersteuningsverwijzingen bijwerken
 Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=Klaar met installeren Als de KLAAR toets niet verschijnt, dan dient op de rode X rechtsboven te worden gedrukt
@@ -86,7 +86,7 @@ Something really went wrong here=Iets verschrikkelijk fout hier
 Post the ENTIRE contents of this message in the Community Applications Support Thread=Post de GEHELE inhoud van dit bericht in de hulplijn voor Community Applications
 Unknown error happened Please post a screenshot in the support thread of the Statistics screen=Onbekende fout opgetreden  Gelieve een screenshot te plaatsen in de hulplijn van het Statistiekenscherm
 Something really wrong happened Reloading the Apps tab will probably fix the problem=Iets ging verschrikkelijk fout  Herladen van de Apps pagina zal waarschijnlijk het probleem oplossen
-This plugin has a duplicated name from another plugin %s This will impact your ability to install both plugins simultaneously=Deze plugin heeft een dubbele naam met een andere plugin %s  Dit heeft invloed op beide plug-ins bij tegelijkertijd installeren
+This plugin has a duplicated name from another plugin %s This will impact your ability to install both plugins simultaneously=Deze plugin heeft een dubbele naam met een andere plugin %s  Dit heeft invloed op beide plugins bij tegelijkertijd installeren
 
 ; CA Sections Keep the length reasonable
 MENU=MENU
@@ -153,7 +153,7 @@ No templates were automatically fixed=Geen sjablonen werden automatisch hersteld
 All of these errors found have been fixed automatically=Al deze gevonden fouten zijn automatisch hersteld
 Note that many of these errors can be avoided by following the directions=Letop veel van dez fouten kunnen worden vermeden door de richtlijnen te volgen
 HERE=HIER
-The following plugins have duplicated filenames and are not able to be installed simultaneously=De volgende plug-ins hebben dubbele bestandsnamen en kunnen niet gelijktijdig worden geïnstalleerd
+The following plugins have duplicated filenames and are not able to be installed simultaneously=De volgende plugins hebben dubbele bestandsnamen en kunnen niet gelijktijdig worden geïnstalleerd
 The following docker applications refer to the same docker repository but may have subtle changes in the template to warrant this=De volgende docker applicaties verwijzen naar dezelfde docker repository maar kunnen subtiele verschillen in het sjabloon hebben
 If any of these entries are incorrect then contact the moderators of CA to discuss=Als een van deze vermeldingen onjuist is, neem dan contact op met de moderators van CA om dit te bespreken
 Global Repository Comments=Algemene repository commentaar
