@@ -101,7 +101,6 @@ Top New Installs=Top nieuwe installaties
 Trending Apps=Populaire Apps
 All Apps=Alle Apps
 OTHER=ANDERS
-Settings=Instellingen
 Statistics=Statistieken
 Credits=Applaus
 Support=Ondersteuning
