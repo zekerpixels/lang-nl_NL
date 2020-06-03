@@ -218,7 +218,6 @@ NetworkVOIP=Netwerk:VOIP
 NetworkVPN=Netwerk:VPN
 NetworkWeb=Netwerk:Web
 NetworkOther=Netwerk:Anders
-Tools=Gereedschap
 ToolsSystem=Gereedschap:Systeem
 ToolsThemes=Gereedschap:Themas
 ToolsUtilities=Gereedschap:Utiliteiten
