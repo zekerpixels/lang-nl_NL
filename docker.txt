@@ -63,7 +63,7 @@ MediaApp=MediaApp
 MediaServer=MediaServer
 Messenger=Boodschapper
 Missing parameters=Ontbrekende parameters
-Music-Muziek
+Music=Muziek
 Network Type=Netwerk type
 No Docker containers installed=Geen Docker containers geïnstalleerd
 of=van
