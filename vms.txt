@@ -129,3 +129,4 @@ Wasnt able to stop the process=Was niet mogelijk om het proces te stoppen
 Windows 7XP=Windows 7/XP
 Windows 82012, newer Linux distros=Windows 8/2012, nieuwere Linux distros
 XML View=XML weergave
+

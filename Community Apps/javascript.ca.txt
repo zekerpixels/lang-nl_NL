@@ -12,3 +12,4 @@ Install Application=Applicatie installeren
 Install Applications=Applicaties installeren
 Something really wrong went on during %s=Iets ging verschrikkelijk fout tijdens %s
 Are you sure you want to delete %s applications from the previously installed list=Bent u zeker om %s applicaties te verwijderen van de vorig geïnstalleerde lijst
+

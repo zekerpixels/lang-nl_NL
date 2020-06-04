@@ -17,3 +17,4 @@ Use a password up to 128 characters=Gebruik een wachtwoord t/m 128 karakters
 Use only lowercase letters, digits, underscores and dashes=Gebruik enkel kleine letters, cijfers, underscore en streepjes
 User %s has been deleted=Gebruiker %s is verwijderd
 User name=Gebruikersnaam
+

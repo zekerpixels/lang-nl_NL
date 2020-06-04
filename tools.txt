@@ -144,156 +144,158 @@ USB Devices=USB apparaten
 Your system has booted with the PCIe ACS Override setting enabled=Het systeem was opnieuw gestart met de PCIe ACS Override instelling ingeschakeld
 
 :diagnostics_1_plug:
-Deze utiliteit wordt gebruikt voor het oplossen van problemen. Het verzamelt systeem informatie en configuratie bestanden, en pakt deze bestanden samen in een enkel ZIP bestand, welke locaal wordt opgeslagen.
-Vervolgens kan het ZIP bestand worden toegevoegd in de correspondentie met Limetech of het Unraid forum.
+This utility is used for troubleshooting purposes. It will collect all of the system information and configuration files, and package these files in a single ZIP file which can be saved locally.
+Subsequently, this file can be included in your correspondence with Limetech or the Unraid forum.
 
-Dit helpt anderen om sneller inzage te krijgen in uw systeem en betere ondersteuning te geven voor de problemen.
-De volgende informatie en configuratie bestanden worden verzameld:
+This will help others to quickly get the inside information of your system and provide better support to your problem. The following information
+and configuration files are collected:
 :end
 
 :diagnostics_2_plug:
 + */config*
-  <br>kopieer alle *\*.cfg bestanden*, *go* bestand en het *super.dat* bestand. Dit zijn configuratie bestanden.
+  <br>copy all *\*.cfg files*, *go* file and the *super.dat* file. These are configuration files.
 + */config/shares*
-  <br>kopieer alle *\*.cfg* bestanden. Dit zijn bestanden met instellingen voor gebruikersmappen.
-+ *Syslog bestand(en)*
-  <br>kopieer het huidige *syslog* bestand en eventuele vorige *syslog* bestanden.
-+ *Systeem*
-  <br>sla de uitvoer op van de volgende commandos:
+  <br>copy all *\*.cfg* files. These are user share settings files.
++ *Syslog file(s)*
+  <br>copy the current *syslog* file and any previous existing *syslog* files.
++ *System*
+  <br>save output of the following commands:
   <br>lsscsi, lspci, lsusb, free, lsof, ps, ethtool & ifconfig.
-  <br>overzicht van iommu groepen.
-  <br>overzicht van command line parameters (bv pcie acs override, pci stubbing, etc).
-  <br>sla systeem variabelen op.
-+ *SMART reportages*
-  <br>sla een SMART reportage of van elke individuele schijf aanwezig in het systeem.
+  <br>display of iommu groups.
+  <br>display of command line parameters (e.g. pcie acs override, pci stubbing, etc).
+  <br>save system variables.
++ *SMART reports*
+  <br>save a SMART report of each individual disk present in your system.
 + *Docker*
-  <br>sla de volgende bestanden op *docker.log*, *libvirtd.log* en *libvirt/qemu/\*.log*.
+  <br>save files *docker.log*, *libvirtd.log* and *libvirt/qemu/\*.log*.
 :end
 
 :diagnostics_3_plug:
-Druk op **Downloaden** om het verzamelingsproces te starten en geef de browser de instructie om het zip bestand lokaal op te slaan.
+Clicking **Download** will start the collection process and then instruct your browser to save the zip file locally.
 
-*Er wordt geen persoonlijke informatie inbegrepen door Unraid OS, zoals gebruikersnamen, wachtwoorden, of bestanden anders dan hierboven vermeld;
-echter de servernaam, IP adres en gebruikersmapnamen zijn **wel** inbegrepen.*
+*No personal information such as user names, passwords, or any other file contents not specified above is included
+by Unraid OS; however, your server name, IP address, and user share names* **will** *be included.*
 
-*Letop dat plugins van 3de partijen **mogelijk** persoonlijke informatie opslaan die specifiek zijn aan de configuratie bestanden van de plugin of eventuele uitvoer naar het systeem logbestand.*
+*Note that 3rd-party plugins **may** or may not store personal information in plugin-specific configuration files and/or output
+to the system log.*
 
-*Gebruik* **Maak diagnostieken anoniem** *wanneer het diagnostiekenbestand op het publieke forum wordt gezet. In privé communicatie met Limetech is het aanbevolen om geen anonimiteit te gebruiken en alle informatie onveranderd op te slaan.*
+*Use* **Anonymize diagnostics** *when publishing the diagnostics file in the public forum. In private communication with Limetech it is recommended to uncheck this setting and capture all information unaltered.*
 :end
 
 :newconfig_plug:
-Deze utiliteit zet de array schijf informatie terug, zodat het lijkt dat alle schijven "Nieuw" zijn, alsof het een nieuwe server betreft.
+This is a utility to reset the array disk configuration so that all disks appear as "New" disks, as
+if it were a fresh new server.
 
-Dit is handig wanneer meerdere schijven zijn toegevoegd of verwijderd en de wens bestaat om de pariteit te herbouwen, gebaseerd op een nieuwe configuratie.
+This is useful when you have added or removed multiple drives and wish to rebuild parity based on
+the new configuration.
 
-Gebruik de *Onthoud huidige toekenningen* selectie om de gewenste schijfsloten voor in te vullen **nadat** de schijfopslag is teruggezet.
-Standaard worden *geen* schijfsloten vooringevuld.
+Use the *'Preserve current assignments'* selection to populate the desired disk slots ***after*** the array has been reset. By default **no** disk slots are populated.
 
-**GEBRUIK DEZE UTILITEIT NIET OM EEN FOUTIEVE SCHIJF TE HERSTELLEN** - het doet het tegenovergestelde
-en maakt het juist **onmogelijk** om een bestaande foutieve schijf te herstellen - u bent gewaarschuwd!
+**DO NOT USE THIS UTILITY THINKING IT WILL REBUILD A FAILED DRIVE** - it will have the opposite
+effect of making it ***impossible*** to rebuild an existing failed drive - you have been warned!
 :end
 
 :newperms_1_plug:
-Dit is een verplichte enkelmalige actie die moet worden gedaan na het upgraden van een pre-5.0 Unraid server uitgave naar Unraid v5 of later.
-Selecteer **ALLE SCHIJVEN** om deze actie eenmalig te doen.
+This is a mandatory one-time action to be taken after upgrading from a pre-5.0 Unraid server release to Unraid v5 or a later release.
+Select **ALL DISKS** when performing this one-time action.
 
-Deze utiliteit is ook handig voor het herstellen van standaard eigenaarschap/rechten voor bestanden en mappen, wanneer gebruik wordt gemaakt van Active Directory integratie.
+This utility is also useful for restoring default ownership/permissions on files and
+directories when transitioning back from Active Directory to non-Active Directory integration.
 
-Deze utiliteit start een achtergrond proces welke alle geselecteerde data/poel schijven of alle geselecteerde gebruikersmappen doorloopt
-en eigenaarschap van bestanden en mappen verandert naar *nobody/users* (dwz. uid/gid naar 99/100) en de rechten als volgt:
+The utility starts a background process that goes to each of your data disks and cache disks and selected user shares
+and changes file and directory ownership to *nobody/users* (i.e., uid/gid to 99/100), and sets permissions
+as follows:
 :end
 
 :newperms_2_plug:
-Voor mappen:
+For directories:
   drwxrwxrwx
 
-Voor lees/schrijf bestanden:
+For read/write files:
   -rw-rw-rw-
 
-Voor lees bestanden:
+For readonly files:
   -r--r--r--
 :end
 
 :newperms_3_plug:
-Druk op **Starten** om een venster te openen en het achtergrond proces te starten.
+Clicking **Start** will open another window and start the background process.
 
-Sluiten van het venster zal het achtergrond process termineren voordat het klaar is - wachten dus. Dit proces kan lang duren wanneer er heel veel bestanden zijn.
+Closing the window before completion will terminate the background process - so don't do that. This process can take a long time if you have many files.
 
-Letop: deze utiliteit kan een negatief effect hebben op docker containers wanneer de rechten van de 'appdata' map worden aangepast.
+Note that this tool may negatively affect any docker containers if you allow your appdata share to be included.
 :end
 
 :registration_1_plug:
-De server zal niet bruikbaar zijn zolang geen registratie sleutel is gekocht of een gratis 30 dagen *Proefsleutel* is geïnstalleerd.
-Een *Proefsleutel* geeft toegang tot alle functionaliteit van een *Pro* registratie sleutel.
+Your server will not be usable until you purchase a Registration key or install a free 30-day *Trial* key. A *Trial*
+key provides all the functionality of a *Pro* Registration key.
 
-Registratie sleutels zijn permanent gebonden aan het serienummer (GUID) van de USB Flash opslag. Gebruik een goede kwaliteits USB van tenminste 1 GB groot.
+Registration keys are bound to your USB Flash boot device serial number (GUID).  Please use a high quality name brand device
+at least 1GB in size.
 
-Letop: USB geheugenkaart lezers zijn in het algemeen **niet** ondersteund, omdat deze geen unieke serienummers bevatten.
+Note: USB memory card readers are generally **not** supported because most do not present unique serial numbers.
 :end
 
 :registration_2_plug:
-+ Zorg ervoor dat de [server tijd](DateTime) nauwkeurig is binnen 5 minuten.
-+ Zorg ervoor dat er een [DNS server](NetworkSettings) is opgegeven.
++ Please make sure your [server time](DateTime) is accurate to within 5 minutes.
++ Please make sure there is a [DNS server](NetworkSettings) specified.
 :end
 
 :registration_3_plug:
-De *Proefsleutel* bevat alle functionaliteit en apparaatondersteuning van een *Pro* registratie sleutel.
+Your *Trial* key includes all the functionality and device support of a *Pro* Registration key.
 
-Nadat de *Proefsleutel* is komen te vervallen, zal de server nog steeds **normaal functioneren** totdat de schijfopslag wordt **Gestopt**</code>.
+After your *Trial* key has reached expiration, your server **still functions normally** until the next time you **Stop** the array.
 
-Op dit moment, kan er een registratie sleutel worden gekocht of de proeftijd worden verlengd.
+At that point, you may either purchase a Registration key, or request a *Trial* extension.
 :end
 
 :registration_4_plug:
-Om Unraid OS te blijven gebruiken, moet een registratie sleutel worden gekocht. Anderzijds kan een proeftijdverlenging worden aangevraagd.
+To continue using Unraid OS you may purchase a Registration key. Alternately, you may request a *Trial* extension key.
 
-De meeste proeftijdverlengingsaanvragen worden onmiddelijk verwerkt, maar houdt rekening met één werkdag voor het ontvangen van de sleutel.
+Most *Trial* extension requests are processed immediately but please allow up to one business day to receive your *Trial* extension key.
 :end
 
 :registration_5_plug:
-Het is niet mogelijk een *Proefsleutel* te gebruiken bij een bestaande Unraid OS installatie.
+It is not possible to use a *Trial* key with an existing Unraid OS installation.
 
-Een overeenkomstige registratie sleutel kan worden gekocht voor deze USB opslag om verder te kunnen met de installatie.
+You may purchase a Registration key corresponding to this USB Flash device to continue using this installation.
 
-Voor meer informatie, [Contacteer Support](https://lime-technology.com/contact).
+For more information, please [Contact Support](https://lime-technology.com/contact).
 :end
 
 :registration_6_plug:
-Het lijkt erop dat het registratie sleutelbestand verminkt is of ontbreekt. Het sleutelbestand bevindt zich in de
-[config](/Registration/Browse?dir&#61;/boot/config) map van de USB Flash opslag.
+It appears that your Registration key file is corrupted or missing.  The key file should be located in the
+[config](/Registration/Browse?dir&#61;/boot/config) directory on your USB Flash boot device.
 
-Wanneer er geen reserverkopie is van het registratie sleutelbestand, [Contacteer Support](https://lime-technology.com/contact).
+If you do not have a backup copy of your Registration key file, [Contact Support](https://lime-technology.com/contact).
 
-Indien dit een *Proef* installatie is, dan kan een registratie sleutel worden gekocht.
+If this was a *Trial* installation, you may purchase a Registration key.
 :end
 
 :registration_7_plug:
-*Proef* installaties zijn alleen geldig met een origineel geregistreerde USB Flash opslag.
+*Trial* installations are only valid with the originally registered USB Flash device.
 
-Om verder te kunnen met deze installatie van deze USB Flash opslag, kan een registratie sleutel worden gekocht.
+To continue using this installation with this USB Flash device, you may purchase a Registration key.
 :end
 
 :registration_8_plug:
-Het registratie sleutelbestand komt niet overeen met de USB Flasg opslag.
-Kopieer het juiste sleutelbestand naar de [config](/Registration/Browse?dir&#61;/boot/config) map
-op de USB Flash opslag.
+The Registration key file does not correspond to the USB Flash boot device.
+Please copy the correct key file to the [config](/Registration/Browse?dir&#61;/boot/config) directory
+on your USB Flash boot device. If you do not have a backup copy of your key file, [Contact Support](https://lime-technology.com/contact).
 
-Wanneer er geen reserverkopie is van het registratie sleutelbestand, [Contacteer Support](https://lime-technology.com/contact).
+If you want to replace your Registration key with a new key bound to this USB Flash device, click Replace Key below. An original key may be
+replaced anytime. Thereafter, a replacement key may be replaced again after one year has passed.  If you require
+another replacement key sooner, [Contact Support](https://lime-technology.com/contact).
 
-Wanneer de registratie sleutel moet worden vervangen met een nieuwe sleutel toegekend aan deze USB Flash opslag, druk op *Sleutel Kopen*.
-Een originele sleutel kan op elk gewenst moment worden vervangen.
-
-Daarna kan een vervangings sleutel opnieuw worden vervangen na één jaar. Als een vervangings sleutel eerder nodig is, [Contacteer Support](https://lime-technology.com/contact).
-
-**Letop** Het vervangen van een registratie sleutel resulteert in een permanente *zwarte lijst* van de vorige USB Flash GUID.
+**Note:** Replacing a Registration key results in permanently *blacklisting* the previous USB Flash GUID.
 :end
 
 :registration_9_plug:
-Deze USB Flash opslag staat op een *zwarte lijst*. Dit kan gebeuren als resultaat van een overgang van de registratie sleutel naar
-een vervangings USB Flash opslag, en het systeem is opgestart met de oude USB Flash opslag.
+This USB Flash boot device has been *blacklisted*. This can occur as a result of transfering your Registration key to
+a replacement USB Flash device, and you are currently booted from your old USB Flash device.
 
-Een USB Flash opslag kan ook op de *zwarte lijst* staan als het geen serienummer heeft of als het serienummer niet uniek is
-(dit is gebruikelijk bij USB kaartlezers).
+A USB Flash device may also be *blacklisted* if there is no serial number, or if we discover the serial number
+is not unique (this is common with USB card readers).
 
-Voor meer informatie, [Contacteer Support](https://lime-technology.com/contact).
+For more information, please [Contact Support](https://lime-technology.com/contact).
 :end

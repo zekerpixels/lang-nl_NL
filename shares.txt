@@ -63,3 +63,4 @@ User Shares=Gebruikersmappen
 Volume dbpath=DBpath volume
 Write=Schrijven
 You cannot use the following within share names=De volgende karakters kunnen niet worden gebruikt binnen mapnamen
+

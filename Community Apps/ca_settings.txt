@@ -12,3 +12,4 @@ This setting allows CA to periodically scan your system and alert you to the pre
 2 Critical security vulnerabilities within Unraid OS=2 Kritieke beveiligingskwetsbaarheden binnen het Unraid besturingssysteem
 3 Any installed applications which may seriously hinder the operation of your server=3 Enig geïnstalleerde applicatie welke de operatie van de server kan hinderen
 Support Thread=Ondersteuningsdraad
+
