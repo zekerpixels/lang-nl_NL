@@ -6,9 +6,9 @@ Cancel=Annuleren
 Happy New Year=Gelukkig nieuwjaar
 Happy Holidays from Andrew, Tracey, and family=Prettige vakantie van Andrew, Tracey en familie
 Please Enjoy Responsibly=Gelieve verantwoord genieten
-Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=Pop-up geblokkeerd CA gebruikt pop-ups voor bepaalde doeleinden  De server moet worden white-listed in de browser om pop-ups toe te staan
+Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=Pop-up geblokkeerd CA gebruikt pop-ups voor bepaalde doeleinden. De server moet worden white-listed in de browser om pop-ups toe te staan
 Docker Service Not Enabled - Only Plugins Available To Be Installed Or Managed=Dockerdienst niet ingeschakeld - Enkel plugins zijn beschikbaar voor installatie of beheer
-Community Applications works best when cookies are enabled in your browser Certain features may not be available=Community Applications werkt het beste wanneer cookies zijn toegestaan in de browser  Sommige kenmerken zijn mogelijk niet beschikbaar
+Community Applications works best when cookies are enabled in your browser Certain features may not be available=Community Applications werkt het beste wanneer cookies zijn toegestaan in de browser. Sommige kenmerken zijn mogelijk niet beschikbaar
 Backup Server Active Some icons may not appear, and plugin installations may be affected=Backup server actief Sommige ikonen verschijnen mogelijk niet, en plugin installaties zijn mogelijk verhinderd
 
 ; Sorting Options
@@ -25,11 +25,11 @@ All applications listed here are 3rd party additions to Unraid Neither the autho
 Every attempt is made to ensure that only safe and compatible applications are present=Alles is eraan gedaan om ervoor te zorgen dat veilige en compatibele applicaties aanwezig zijn
 Application Policy=Applicatiebeleid
 I Understand=Ik begrijp het
-Installations of apps disabled You must accept the warning to be able to install applications=Installatie van apps uitgeschakeld  De waarschuwing om het installeren van applicaties toe te staan, moet worden geaccepteerd
+Installations of apps disabled You must accept the warning to be able to install applications=Installatie van apps uitgeschakeld. De waarschuwing om het installeren van applicaties toe te staan, moet worden geaccepteerd
 Click here=Hier drukken
 
 ; Plugin Disclaimer
-Community Applications contains both docker containers and plugin applications Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=Community Applications bevatten zowel docker containers als plugins  Plugins zijn ontworpen voor besturingssysteem toevoegingen, en draaien met volledige rechten op het systeem en zijn duidelijk gemarkeerd binnen CA
+Community Applications contains both docker containers and plugin applications Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=Community Applications bevatten zowel docker containers als plugins. Plugins zijn ontworpen voor besturingssysteem toevoegingen, en draaien met volledige rechten op het systeem en zijn duidelijk gemarkeerd binnen CA
 Plugin Note=Plugin notitie
 
 ; Multi Install
@@ -49,7 +49,7 @@ Install Plugin=Plugin installeren
 Delete Template=Sjabloon verwijderen
 Yes, delete it=Ja, verwijderen
 
-; Uninstall  popup
+; Uninstall popup
 Uninstall Application=Applicatie de-installeren
 Yes uninstall it=Ja, de-installeren
 
@@ -72,21 +72,21 @@ Yes, install it=Ja, installeren
 
 ; Multi-install popup
 Yes, install them=Ja, installeren
-Cookies not enabled Plugins must be separately installed from docker applications=Cookies niet ingeschakeld  Plugins moeten apart van docker applicaties worden geïnstalleerd
+Cookies not enabled Plugins must be separately installed from docker applications=Cookies niet ingeschakeld. Plugins moeten apart van docker applicaties worden geïnstalleerd
 Docker applications will be installed utilizing the most recently saved template with no user input on your part=Docker applicaties worden geïnstalleerd gebruikmakend van het meest recent opgeslagen sjabloon zonder verdere gebruikersinvoer
 Updating Support Links=Ondersteuningsverwijzingen bijwerken
 Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=Klaar met installeren Als de KLAAR toets niet verschijnt, dan dient op de rode X rechtsboven te worden gedrukt
 
 ; error messages
 No data was returned It is probable that another browser session has rebooted your server Reloading this browser tab will probably fix this error=Geen data ontvangen Het is mogelijk dat een andere browsersessie de server heeft herstart Opnieuw laden van deze browserpagina zal het probleem vermoedelijk oplossen
-An error occurred.  Could not find any %s Apps=Een fout opgetreden. Kon geen enkele %s Apps finden
+An error occurred Could not find any %s Apps=Een fout opgetreden. Kon geen enkele %s Apps finden
 Download of appfeed failed=Downloaden van de appfeed is mislukt
 ; the %s here refers to a function being called
 Something really went wrong here=Iets verschrikkelijk fout hier
 Post the ENTIRE contents of this message in the Community Applications Support Thread=Post de GEHELE inhoud van dit bericht in de hulplijn voor Community Applications
-Unknown error happened Please post a screenshot in the support thread of the Statistics screen=Onbekende fout opgetreden  Gelieve een screenshot te plaatsen in de hulplijn van het Statistiekenscherm
-Something really wrong happened Reloading the Apps tab will probably fix the problem=Iets ging verschrikkelijk fout  Herladen van de Apps pagina zal waarschijnlijk het probleem oplossen
-This plugin has a duplicated name from another plugin %s This will impact your ability to install both plugins simultaneously=Deze plugin heeft een dubbele naam met een andere plugin %s  Dit heeft invloed op beide plugins bij tegelijkertijd installeren
+Unknown error happened Please post a screenshot in the support thread of the Statistics screen=Onbekende fout opgetreden. Gelieve een screenshot te plaatsen in de hulplijn van het Statistiekenscherm
+Something really wrong happened Reloading the Apps tab will probably fix the problem=Iets ging verschrikkelijk fout. Herladen van de Apps pagina zal waarschijnlijk het probleem oplossen
+This plugin has a duplicated name from another plugin %s This will impact your ability to install both plugins simultaneously=Deze plugin heeft een dubbele naam met een andere plugin %s. Dit heeft invloed op beide plugins bij tegelijkertijd installeren
 
 ; CA Sections Keep the length reasonable
 MENU=MENU
@@ -250,7 +250,7 @@ As of %s=(Vanaf %s)
 This application template has been blacklisted=Deze applicatie / sjabloon staat op de zwarte lijst
 This application template has been deprecated=Deze applicatie / sjabloon is verouderd
 This application is not compatible with your version of Unraid=Deze applicatie is niet compatibel met deze versie van Unraid
-Another browser tab or device has updated the displayed templates Some actions are not available=Een andere browser pagina of apparaat heeft de getoonde sjablonen bijgewerkt.  Sommige acties zijn niet beschikbaar
+Another browser tab or device has updated the displayed templates Some actions are not available=Een andere browser pagina of apparaat heeft de getoonde sjablonen bijgewerkt. Sommige acties zijn niet beschikbaar
 Reinstall default=Herinstalleren (standaard)
 WebUI=WebUI
 Reinstall=Herinstalleren
@@ -260,7 +260,7 @@ Install Using The Templates Default Tag=Installeer gebruikmakend van de sjabloon
 Moderator Comments=Moderator Commentaar:
 Note not all authors keep up to date on change logs=Letop niet alle auteurs houden een wijzigingslog bij
 Note not all maintainers keep up to date on change logs=Letop niet alle onderhouders houden een wijzigingslog bij
-;the following if using a space you MUST use nbsp  but keep it down to one word if at all possible
+;the following if using a space you MUST use nbsp but keep it down to one word if at all possible
 Donate=Doneren
 Currently Installed Version=Huidige geïnstalleerde versie:
 Install The Update=Update installeren
