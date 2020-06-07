@@ -144,7 +144,7 @@ USB Devices=USB apparaten
 Your system has booted with the PCIe ACS Override setting enabled=Het systeem was opnieuw gestart met de PCIe ACS Override instelling ingeschakeld
 
 :diagnostics_1_plug:
-Deze utiliteit wordt gebruikt voor het oplossen van problemen. Het verzamelt systeem informatie en configuratie bestanden, en pakt deze bestanden samen in een enkel ZIP bestand, welke lokaal wordt opgeslagen.
+Deze utiliteit wordt gebruikt voor het oplossen van problemen. Het verzamelt systeeminformatie en configuratiebestanden, en pakt deze bestanden samen in een enkel ZIP bestand, welke lokaal wordt opgeslagen.
 Vervolgens kan het ZIP bestand worden toegevoegd in de correspondentie met Limetech of het Unraid forum.
 
 Dit helpt anderen om sneller inzage te krijgen in uw systeem en betere ondersteuning te geven voor de problemen.
