@@ -159,7 +159,7 @@ De volgende informatie en configuratie bestanden worden verzameld:
 + *Syslog bestand(en)*
   <br>kopieer het huidige *syslog* bestand en eventuele vorige *syslog* bestanden.
 + *Systeem*
-  <br>sla de uitvoer op van de volgende commandos:
+  <br>sla de uitvoer op van de volgende commando's:
   <br>lsscsi, lspci, lsusb, free, lsof, ps, ethtool & ifconfig.
   <br>overzicht van iommu groepen.
   <br>overzicht van command line parameters (bv pcie acs override, pci stubbing, etc).
