@@ -182,7 +182,7 @@ echter de servernaam, IP adres en gebruikersmapnamen zijn **wel** inbegrepen.*
 :end
 
 :newconfig_plug:
-Dit hulpprogramma zet de array schijf informatie terug, zodat het lijkt dat alle schijven "Nieuw" zijn, alsof het een nieuwe server betreft.
+Dit hulpprogramma zet de schijfopslag informatie terug, zodat het lijkt dat alle schijven "Nieuw" zijn, alsof het een nieuwe server betreft.
 
 Dit is handig wanneer meerdere schijven zijn toegevoegd of verwijderd en de wens bestaat om de pariteit te herbouwen, gebaseerd op een nieuwe configuratie.
 
@@ -199,7 +199,7 @@ Selecteer **ALLE SCHIJVEN** om deze actie eenmalig te doen.
 
 Dit hulpprogramma is ook handig voor het herstellen van standaard eigenaarschap/rechten voor bestanden en mappen, wanneer gebruik wordt gemaakt van Active Directory integratie.
 
-Dit hulpprogramma start een achtergrond proces welke alle geselecteerde data/poel schijven of alle geselecteerde gebruikersmappen doorloopt
+Dit hulpprogramma start een achtergrondproces welke alle geselecteerde data/poel schijven of alle geselecteerde gebruikersmappen doorloopt
 en eigenaarschap van bestanden en mappen verandert naar *nobody/users* (dwz. uid/gid naar 99/100) en de rechten als volgt:
 :end
 
@@ -215,9 +215,9 @@ Voor lees bestanden:
 :end
 
 :newperms_3_plug:
-Druk op **Starten** om een venster te openen en het achtergrond proces te starten.
+Druk op **Starten** om een venster te openen en het achtergrondproces te starten.
 
-Sluiten van het venster zal het achtergrond process termineren voordat het klaar is - wachten dus. Dit proces kan lang duren wanneer er heel veel bestanden zijn.
+Sluiten van het venster zal het achtergrondprocess termineren voordat het klaar is - even geduld dus. Dit proces kan lang duren wanneer er heel veel bestanden zijn.
 
 Letop: Dit hulpprogramma kan een negatief effect hebben op docker containers wanneer de rechten van de 'appdata' map worden aangepast.
 :end
