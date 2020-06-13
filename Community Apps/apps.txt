@@ -50,8 +50,8 @@ Delete Template=Sjabloon verwijderen
 Yes, delete it=Ja, verwijderen
 
 ; Uninstall popup
-Uninstall Application=Applicatie de-installeren
-Yes uninstall it=Ja, de-installeren
+Uninstall Application=Applicatie deïnstalleren
+Yes uninstall it=Ja, deïnstalleren
 
 ; Remove Private Application
 Remove Private Application=Private applicatie verwijderen
