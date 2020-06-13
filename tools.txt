@@ -182,7 +182,7 @@ echter de servernaam, IP adres en gebruikersmapnamen zijn **wel** inbegrepen.*
 :end
 
 :newconfig_plug:
-Deze utiliteit zet de array schijf informatie terug, zodat het lijkt dat alle schijven "Nieuw" zijn, alsof het een nieuwe server betreft.
+Dit hulpprogramma zet de array schijf informatie terug, zodat het lijkt dat alle schijven "Nieuw" zijn, alsof het een nieuwe server betreft.
 
 Dit is handig wanneer meerdere schijven zijn toegevoegd of verwijderd en de wens bestaat om de pariteit te herbouwen, gebaseerd op een nieuwe configuratie.
 
