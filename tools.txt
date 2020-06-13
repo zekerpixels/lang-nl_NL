@@ -96,7 +96,7 @@ this may take several minutes=dit kan enkele minuten duren
 This release has been withdrawn for use with Trial keys=Deze uitgave van Unraid OS is ingetrokken voor gebruik met *Proefsleutels*
 This server has %s attached storage device=Deze server heeft %s aangesloten opslagapparaat
 This server has %s attached storage devices=Deze server heeft %s aangesloten opslagapparaten
-This utility is used for troubleshooting purposes=Deze utiliteit wordt gebruikt voor het oplossen van problemen
+This utility is used for troubleshooting purposes=Dit hulpprogramma wordt gebruikt voor het oplossen van problemen
 This will delete all notification files=Dit verwijderd alle meldingen
 This will update folder file permissions=Dit zal map- & bestandsrechten bijwerken
 Time=Tijd
@@ -144,7 +144,7 @@ USB Devices=USB apparaten
 Your system has booted with the PCIe ACS Override setting enabled=Het systeem was opnieuw gestart met de PCIe ACS Override instelling ingeschakeld
 
 :diagnostics_1_plug:
-Deze utiliteit wordt gebruikt voor het oplossen van problemen. Het verzamelt systeeminformatie en configuratiebestanden, en pakt deze bestanden samen in een enkel ZIP bestand, welke lokaal wordt opgeslagen.
+Dit hulpprogramma wordt gebruikt voor het oplossen van problemen. Het verzamelt systeeminformatie en configuratiebestanden, en pakt deze bestanden samen in een enkel ZIP bestand, welke lokaal wordt opgeslagen.
 Vervolgens kan het ZIP bestand worden toegevoegd in de correspondentie met Limetech of het Unraid forum.
 
 Dit helpt anderen om sneller inzage te krijgen in uw systeem en betere ondersteuning te geven voor de problemen.
@@ -189,7 +189,7 @@ Dit is handig wanneer meerdere schijven zijn toegevoegd of verwijderd en de wens
 Gebruik de *Onthoud huidige toekenningen* selectie om de gewenste schijfsloten voor in te vullen **nadat** de schijfopslag is teruggezet.
 Standaard worden *geen* schijfsloten vooringevuld.
 
-**GEBRUIK DEZE UTILITEIT NIET OM EEN FOUTIEVE SCHIJF TE HERSTELLEN** - het doet het tegenovergestelde
+**GEBRUIK DIT HULPROGRAMMA NIET OM EEN FOUTIEVE SCHIJF TE HERSTELLEN** - het doet het tegenovergestelde
 en maakt het juist **onmogelijk** om een bestaande foutieve schijf te herstellen - u bent gewaarschuwd!
 :end
 
@@ -197,9 +197,9 @@ en maakt het juist **onmogelijk** om een bestaande foutieve schijf te herstellen
 Dit is een verplichte enkelmalige actie die moet worden gedaan na het upgraden van een pre-5.0 Unraid server uitgave naar Unraid v5 of later.
 Selecteer **ALLE SCHIJVEN** om deze actie eenmalig te doen.
 
-Deze utiliteit is ook handig voor het herstellen van standaard eigenaarschap/rechten voor bestanden en mappen, wanneer gebruik wordt gemaakt van Active Directory integratie.
+Dit hulpprogramma is ook handig voor het herstellen van standaard eigenaarschap/rechten voor bestanden en mappen, wanneer gebruik wordt gemaakt van Active Directory integratie.
 
-Deze utiliteit start een achtergrond proces welke alle geselecteerde data/poel schijven of alle geselecteerde gebruikersmappen doorloopt
+Dit hulpprogramma start een achtergrond proces welke alle geselecteerde data/poel schijven of alle geselecteerde gebruikersmappen doorloopt
 en eigenaarschap van bestanden en mappen verandert naar *nobody/users* (dwz. uid/gid naar 99/100) en de rechten als volgt:
 :end
 
@@ -219,7 +219,7 @@ Druk op **Starten** om een venster te openen en het achtergrond proces te starte
 
 Sluiten van het venster zal het achtergrond process termineren voordat het klaar is - wachten dus. Dit proces kan lang duren wanneer er heel veel bestanden zijn.
 
-Letop: deze utiliteit kan een negatief effect hebben op docker containers wanneer de rechten van de 'appdata' map worden aangepast.
+Letop: Dit hulpprogramma kan een negatief effect hebben op docker containers wanneer de rechten van de 'appdata' map worden aangepast.
 :end
 
 :registration_1_plug:
