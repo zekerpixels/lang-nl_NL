@@ -7,9 +7,9 @@ Anonymize diagnostics=Maak diagnostieken anoniem
 Anytime=Op elk gewenst moment
 Archived Notifications=Meldingen Archief
 Are you sure=Bent u zeker
-Array has been Reset=Schijfopslag is **teruggezet**
-Array must be Started to change permissions=Schijfopslag moet worden **Gestart** om rechten te kunnen veranderen
-Array must be Stopped to change=Schijfopslag moet worden **Gestopt** om te kunnen veranderen
+Array has been Reset=Opslagsysteem is **teruggezet**
+Array must be Started to change permissions=Opslagsysteem moet worden **Gestart** om rechten te kunnen veranderen
+Array must be Stopped to change=Opslagsysteem moet worden **Gestopt** om te kunnen veranderen
 Array=Opslag
 Author=Autheur
 Blacklisted USB Flash GUID=USB Flash GUID staat op de zwarte lijst
@@ -182,11 +182,11 @@ echter de servernaam, IP adres en gebruikersmapnamen zijn **wel** inbegrepen.*
 :end
 
 :newconfig_plug:
-Dit hulpprogramma zet de schijfopslag informatie terug, zodat het lijkt dat alle schijven "Nieuw" zijn, alsof het een nieuwe server betreft.
+Dit hulpprogramma zet het opslagsysteem informatie terug, zodat het lijkt dat alle schijven "Nieuw" zijn, alsof het een nieuwe server betreft.
 
 Dit is handig wanneer meerdere schijven zijn toegevoegd of verwijderd en de wens bestaat om de pariteit te herbouwen, gebaseerd op een nieuwe configuratie.
 
-Gebruik de *Onthoud huidige toekenningen* selectie om de gewenste schijfsloten voor in te vullen **nadat** de schijfopslag is teruggezet.
+Gebruik de *Onthoud huidige toekenningen* selectie om de gewenste schijfsloten voor in te vullen **nadat** het opslagsysteem is teruggezet.
 Standaard worden *geen* schijfsloten vooringevuld.
 
 **GEBRUIK DIT HULPROGRAMMA NIET OM EEN FOUTIEVE SCHIJF TE HERSTELLEN** - het doet het tegenovergestelde
@@ -239,7 +239,7 @@ Letop: USB geheugenkaart lezers zijn in het algemeen **niet** ondersteund, omdat
 :registration_3_plug:
 De *Proefsleutel* bevat alle functionaliteit en apparaatondersteuning van een *Pro* registratie sleutel.
 
-Nadat de *Proefsleutel* is komen te vervallen, zal de server nog steeds **normaal functioneren** totdat de schijfopslag wordt **Gestopt**</code>.
+Nadat de *Proefsleutel* is komen te vervallen, zal de server nog steeds **normaal functioneren** totdat het opslagsysteem wordt **Gestopt**</code>.
 
 Op dit moment, kan er een registratie sleutel worden gekocht of de proeftijd worden verlengd.
 :end
