@@ -4,7 +4,7 @@
 Allocation=Toegewezen
 and if using graphics device passthrough it too needs UEFI=en als passthrough van grafische apparaten wordt gebruikt, dan is UEFI ook nodig
 Are you sure=Bent u zeker
-Array must be started to view Virtual Machines=Schijfopslag moet zijn **Gestart** om Virtuele Machines te zien
+Array must be started to view Virtual Machines=Opslagsysteem moet zijn **Gestart** om Virtuele Machines te zien
 Autostart=Autostart
 Back=Terug
 Bus=Bus
