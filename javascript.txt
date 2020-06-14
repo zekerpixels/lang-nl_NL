@@ -45,8 +45,8 @@ Yes, update it=Ja, bijwerken
 Yes=Ja
 
 ; footer messages
-Array Starting=Schijfopslag starten
-Array Stopping=Schijfopslag stoppen
+Array Starting=Opslagsysteem starten
+Array Stopping=Opslagsysteem stoppen
 Mounting disks=Schijven koppelen
 Spinning up all drives=Alle schijven opstarten
 Starting services=Diensten starten
