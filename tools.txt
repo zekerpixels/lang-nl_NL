@@ -15,7 +15,7 @@ Author=Autheur
 Blacklisted USB Flash GUID=USB Flash GUID staat op de zwarte lijst
 Branch=Tak
 By using this software, you agree with our=Door gebruik te maken van deze software, stemt u in met onze
-Cache slots=Poelsloten
+Cache slots=Groepsloten
 Cannot connect to key-server=Kan geen verbinding maken met de server
 Check for Updates=Zoek naar updates
 click Install Key=druk op <i>Installeer Sleutel</i>
@@ -199,7 +199,7 @@ Selecteer **ALLE SCHIJVEN** om deze actie eenmalig te doen.
 
 Dit hulpprogramma is ook handig voor het herstellen van standaard eigenaarschap/rechten voor bestanden en mappen, wanneer gebruik wordt gemaakt van Active Directory integratie.
 
-Dit hulpprogramma start een achtergrondproces welke alle geselecteerde data/poel schijven of alle geselecteerde gebruikersmappen doorloopt
+Dit hulpprogramma start een achtergrondproces welke alle geselecteerde data/groep schijven of alle geselecteerde gebruikersmappen doorloopt
 en eigenaarschap van bestanden en mappen verandert naar *nobody/users* (dwz. uid/gid naar 99/100) en de rechten als volgt:
 :end
 
