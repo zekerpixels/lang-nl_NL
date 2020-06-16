@@ -167,7 +167,7 @@ De volgende informatie en configuratie bestanden worden verzameld:
 + *SMART reportages*
   <br>sla een SMART reportage op van elke individuele schijf aanwezig in het systeem.
 + *Docker*
-  <br>sla de volgende bestanden op *docker.log*, *libvirtd.log* en *libvirt/qemu/\*.log*.
+  <br>sla de volgende bestanden op *docker.log*, *libvirtd.log*, *libvirt/qemu/\*.log* en *vfio-pci*.
 :end
 
 :diagnostics_3_plug:
