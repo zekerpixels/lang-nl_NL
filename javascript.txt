@@ -52,3 +52,6 @@ Spinning up all drives=Alle schijven opstarten
 Starting services=Diensten starten
 Stopping services=Diensten stoppen
 Unmounting disks=Schijven ontkoppelen
+Autostart disabled=Autostart uitgeschakeld
+Missing encryption key=Ontbrekende encryptie-sleutel
+Opening encrypted volumes=Versleutelde volumes openen
