@@ -30,7 +30,7 @@ Disks=Schijven
 Display Settings=Beeldinstellingen
 End-User License Agreement=Licentieovereenkomst voor eindgebruikers
 Enter URL of language pack XML file=Voer URL in van taalpakket XML bestand
-Error accessing your physical USB Flash boot device=Fout opgetreden bij fysieke toegang tot USB Flashopslag
+Error accessing your physical USB Flash boot device=Fout opgetreden bij fysieke toegang tot het USB opstartapparaat
 EULA=EULA
 Event=Voorval
 Expiration=Vervaltijd
@@ -90,8 +90,8 @@ Text=Tekst
 Thank you for choosing Unraid OS=Bedankt voor het kiezen van Unraid OS
 Thank you for registering USB Flash GUID=Bedankt voor de registratie van de USB Flash GUID
 Thank you for trying Unraid OS=Bedankt voor het uitproberen van Unraid OS
-The registered GUID does not match the USB Flash boot device GUID=De geregistreerde GUID komt niet overeen met de GUID van de USB Flashopslag
-There is a physical problem accessing your USB Flash boot device=Er is een fysiek probleem opgetreden bij de toegang tot de USB Flashopslag
+The registered GUID does not match the USB Flash boot device GUID=De geregistreerde GUID komt niet overeen met de GUID van het USB opstartapparaat
+There is a physical problem accessing your USB Flash boot device=Er is een fysiek probleem opgetreden bij de toegang tot het USB opstartapparaat
 this may take several minutes=dit kan enkele minuten duren
 This release has been withdrawn for use with Trial keys=Deze uitgave van Unraid OS is ingetrokken voor gebruik met *Proefsleutels*
 This server has %s attached storage device=Deze server heeft %s aangesloten opslagapparaat
@@ -226,7 +226,7 @@ Letop: Dit hulpprogramma kan een negatief effect hebben op docker containers wan
 De server zal niet bruikbaar zijn zolang geen registratie sleutel is gekocht of een gratis 30 dagen *Proefsleutel* is geïnstalleerd.
 Een *Proefsleutel* geeft toegang tot alle functionaliteit van een *Pro* registratie sleutel.
 
-Registratie sleutels zijn permanent gebonden aan het serienummer (GUID) van de USB Flashopslag. Gebruik een goede kwaliteits USB van tenminste 1 GB groot.
+Registratie sleutels zijn permanent gebonden aan het serienummer (GUID) van het USB opstartapparaat. Gebruik een goede kwaliteits USB van tenminste 1 GB groot.
 
 Letop: USB geheugenkaart lezers zijn in het algemeen **niet** ondersteund, omdat deze geen unieke serienummers bevatten.
 :end
@@ -253,14 +253,14 @@ De meeste proeftijdverlengingsaanvragen worden onmiddelijk verwerkt, maar houdt 
 :registration_5_plug:
 Het is niet mogelijk een *Proefsleutel* te gebruiken bij een bestaande Unraid OS installatie.
 
-Een overeenkomstige registratie sleutel kan worden gekocht voor deze USB Flashopslag om verder te kunnen met de installatie.
+Een overeenkomstige registratie sleutel kan worden gekocht voor dit USB opstartapparaat om verder te kunnen met de installatie.
 
 Voor meer informatie, [Contacteer Support](https://lime-technology.com/contact).
 :end
 
 :registration_6_plug:
 Het lijkt erop dat het registratie sleutelbestand verminkt is of ontbreekt. Het sleutelbestand bevindt zich in de
-[config](/Registration/Browse?dir&#61;/boot/config) map van de USB Flashopslag.
+[config](/Registration/Browse?dir&#61;/boot/config) map van het USB opstartapparaat.
 
 Wanneer er geen reserverkopie is van het registratie sleutelbestand, [Contacteer Support](https://lime-technology.com/contact).
 
@@ -268,19 +268,19 @@ Indien dit een *Proef* installatie is, dan kan een registratie sleutel worden ge
 :end
 
 :registration_7_plug:
-*Proef* installaties zijn alleen geldig met een origineel geregistreerde USB Flashopslag.
+*Proef* installaties zijn alleen geldig met een origineel geregistreerd USB opstartapparaat.
 
-Om verder te kunnen met deze installatie van deze USB Flashopslag, kan een registratie sleutel worden gekocht.
+Om verder te kunnen met deze installatie van dit USB opstartapparaat, kan een registratie sleutel worden gekocht.
 :end
 
 :registration_8_plug:
 Het registratie sleutelbestand komt niet overeen met de USB Flasg opslag.
 Kopieer het juiste sleutelbestand naar de [config](/Registration/Browse?dir&#61;/boot/config) map
-op de USB Flashopslag.
+op het USB opstartapparaat.
 
 Wanneer er geen reserverkopie is van het registratie sleutelbestand, [Contacteer Support](https://lime-technology.com/contact).
 
-Wanneer de registratie sleutel moet worden vervangen met een nieuwe sleutel toegekend aan deze USB Flashopslag, druk op *Sleutel Kopen*.
+Wanneer de registratie sleutel moet worden vervangen met een nieuwe sleutel toegekend aan dit USB opstartapparaat, druk op *Sleutel Kopen*.
 Een originele sleutel kan op elk gewenst moment worden vervangen.
 
 Daarna kan een vervangings sleutel opnieuw worden vervangen na één jaar. Als een vervangings sleutel eerder nodig is, [Contacteer Support](https://lime-technology.com/contact).
@@ -289,10 +289,10 @@ Daarna kan een vervangings sleutel opnieuw worden vervangen na één jaar. Als e
 :end
 
 :registration_9_plug:
-Deze USB Flashopslag staat op een *zwarte lijst*. Dit kan gebeuren als resultaat van een overgang van de registratie sleutel naar
-een vervangings USB Flashopslag, en het systeem is opgestart met de oude USB Flashopslag.
+Dit USB opstartapparaat staat op een *zwarte lijst*. Dit kan gebeuren als resultaat van een overgang van de registratie sleutel naar
+een vervangings USB opstartapparaat, en het systeem is opgestart met het oude USB opstartapparaat.
 
-Een USB Flashopslag kan ook op de *zwarte lijst* staan als het geen serienummer heeft of als het serienummer niet uniek is
+Een USB opstartapparaat kan ook op de *zwarte lijst* staan als het geen serienummer heeft of als het serienummer niet uniek is
 (dit is gebruikelijk bij USB kaartlezers).
 
 Voor meer informatie, [Contacteer Support](https://lime-technology.com/contact).
