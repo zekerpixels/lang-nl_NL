@@ -319,6 +319,7 @@ Install Language Pack=Taalpakket Installeren
 Remove Language Pack=Taalpakket verwijderen
 Update Language Pack=Taalpakket bijwerken
 Installed Version=Geïnstalleerde versie
+A note about translations=Opmerking over vertalingen
 
 ; Help Text
 This chooses how to sort the results=Dit geeft aan hoe de resultaten te sorteren
