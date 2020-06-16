@@ -8,6 +8,7 @@ Enter URL of remote plugin file or local plugin file=Voer de URL in van een plug
 ERROR=FOUT
 Install Plugin=Plugin Installeren
 install=installeren
+Install=Installeren
 Installed Plugins=Geïnstalleerde plugins
 Installing Update=Bezig met installeren van update
 need check=check nodig
