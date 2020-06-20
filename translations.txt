@@ -233,6 +233,7 @@ Please wait=Even wachten
 Plugins=Plugins
 Plus=Plus
 prefix_SI=K M G T P E Z Y
+prefix_IEC=Ki Mi Gi Ti Pi Ei Zi Yi
 Private=Privaat
 Pro=Pro
 Proceed=Doorgaan
