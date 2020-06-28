@@ -332,6 +332,7 @@ Online=Online
 Only alphanumeric characters=Enkel leesbare karakters
 Only PNG images are allowed=Enkel PNG bestanden zijn toegestaan
 Oops=Oeps
+optional metric lowest is preferred=optionele metriek (laagste heeft voorkeur)
 optional metric lowest is preferred, 0 is no default gateway=optionele metriek (laagste heeft voorkeur, 0 is geen standaardtoegang)
 Page view=Pagina opbouw
 Parity Check=Pariteitscontrole
