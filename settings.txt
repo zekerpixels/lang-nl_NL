@@ -11,6 +11,7 @@ AD initial group=AD initiële groep
 AD initial owner=AD initiële eigenaar
 AD join status=AD toetreden status
 AD short domain name=AD verkorte domeinnaam
+Add Route=Route toevoegen
 Add VLAN=VLAN aanmaken
 Agent function=Agentfunctie
 Agents=Agenten
