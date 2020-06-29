@@ -453,6 +453,8 @@ Tunable poll_attributes=Afstemmen (poll_attributes)
 Tunable scheduler=Afstemmen (scheduler)
 Tunable support Hard Links=Afstemmen (ondersteun Hard Links)
 Turn off UPS after shutdown=Schakel UPS uit nadat systeem uit is
+; Keep the original plugin name in settings
+Unassigned Devices=Unassigned Devices
 Unraid OS update notification=Unraid OS update melding
 Unraid OS update=Unraid OS update
 Update DNS=DNS bijwerken
