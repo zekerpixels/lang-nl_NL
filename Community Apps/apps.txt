@@ -85,6 +85,7 @@ Post the ENTIRE contents of this message in the Community Applications Support T
 Unknown error happened Please post a screenshot in the support thread of the Statistics screen=Onbekende fout opgetreden. Gelieve een screenshot te plaatsen in de hulplijn van het Statistiekenscherm
 Something really wrong happened Reloading the Apps tab will probably fix the problem=Iets ging verschrikkelijk fout. Herladen van de Apps pagina zal waarschijnlijk het probleem oplossen
 This plugin has a duplicated name from another plugin %s This will impact your ability to install both plugins simultaneously=Deze plugin heeft een dubbele naam met een andere plugin %s. Dit heeft invloed op beide plugins bij tegelijkertijd installeren
+You have been logged out=U bent uitgelogd
 
 ; CA Sections Keep the length reasonable
 MENU=MENU
@@ -192,7 +193,7 @@ Utilities=Hulpprogramma's
 Private Apps=Privaat Apps
 Uncategorized=Ongesorteerd
 
-; Categories displayed within a popup or on the card
+; Categories displayed within a popup or on the card.  Where an entry exists after the "=" it is not translated, but rather how it should look
 GameServers=Spelletjes
 HomeAutomation=Domotica
 MediaApp=MediaApp
@@ -318,6 +319,7 @@ Remove Language Pack=Taalpakket verwijderen
 Update Language Pack=Taalpakket bijwerken
 Installed Version=Geïnstalleerde versie
 A note about translations=Opmerking over vertalingen
+Click here to view the language changelog=Hier drukken om het taalwijzigingslogboek
 
 ; Help Text
 This chooses how to sort the results=Dit geeft aan hoe de resultaten te sorteren
