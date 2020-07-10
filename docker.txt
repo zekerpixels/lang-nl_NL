@@ -33,6 +33,7 @@ Default Value=Standaard waarde
 Device=Apparaat
 Display=Afbeelden
 DNS=DNS
+Docker Containers=Docker Containers
 Docker Hub URL=Docker Hub URL
 Docker Service failed to start=Dockerdienst kan niet worden gestart
 Donation Link=Donatie link
