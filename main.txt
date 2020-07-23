@@ -67,6 +67,7 @@ Do not use user share names=Gebruik geen namen van gebruikersmappen
 Download SMART report=Download SMART rapportage
 Dual parity valid requires ALL disks in their original slots=*Geldige dubbele pariteit* vereist dat **ALLE** schijven in hun oorspronkelijke positie zijn geplaatst
 Elapsed time=Verstreken tijd
+Enable user share assignment=Toewijzing voor gebruikersmappen
 encrypted=versleuteld
 Encryption input=Versleutelinvoer
 Encryption status=Versleutelstatus
