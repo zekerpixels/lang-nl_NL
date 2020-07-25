@@ -55,6 +55,7 @@ Missing Language=Ontbrekende taal
 Network Settings=Netwerkinstellingen
 New Config=Nieuwe Config
 New Permissions=Nieuwe Rechten
+No notifications present=Geen meldingen aanwezig
 No personal information such as user names, passwords, or any other file contents is included in the hardware profile=Er is geen persoonlijke informatie inbegrepen in het hardware profiel, zoals gebruikersnamen, wachtwoorden, of andere bestanden
 normal=normaal
 Only ZIP files are allowed=Enkel ZIP bestanden zijn toegestaan
