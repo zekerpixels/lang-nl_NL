@@ -203,7 +203,6 @@ Dit hulpprogramma is ook handig voor het herstellen van standaard eigenaarschap/
 Dit hulpprogramma start een achtergrondproces welke alle geselecteerde data/groep schijven of alle geselecteerde gebruikersmappen doorloopt
 en eigenaarschap van bestanden en mappen verandert naar *nobody/users* (dwz. uid/gid naar 99/100) en de rechten als volgt:
 :end
-
 :newperms_2_plug:
 Voor mappen:
   drwxrwxrwx
@@ -288,6 +287,7 @@ Daarna kan een vervangings sleutel opnieuw worden vervangen na één jaar. Als e
 
 **Letop** Het vervangen van een registratie sleutel resulteert in een permanente *zwarte lijst* van de vorige USB Flash GUID.
 :end
+
 
 :registration_9_plug:
 Dit USB opstartmedium staat op een *zwarte lijst*. Dit kan gebeuren als resultaat van een overgang van de registratie sleutel naar

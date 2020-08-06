@@ -425,6 +425,9 @@ Click the **Apply** button to commit the current edits.  Click **Reset** to
 undo any changes you make (before Saving). Click **Done** to exit this page.
 :end
 
+:info_share_assignment_help:
+The selected pool is available for user shares.
+:end
 :info_free_space_help:
 This defines a "floor" for the amount of free space remaining in the volume.
 If the free space becomes less than this value, then new files written via user shares will fail with "not enough space" error.
@@ -964,6 +967,11 @@ If the system needs to create a new docker image file, this is the default size 
 To resize an existing image file, specify the new size here. Next time the Docker service is started the file (and file system) will increased to the new size (but never decreased).
 :end
 
+:docker_vdisk_type_help:
+Select where to keep the Docker persistent state.
+
+This can be an image file with a specific size or a dedicated folder.
+:end
 :docker_vdisk_location_help:
 You must specify an image file for Docker. The system will automatically create this file when the Docker service is first started.
 
@@ -971,6 +979,7 @@ The image file name must have the extension .img, If not the input is not accept
 
 It is recommended to create this image file outside the array, e.g. on the Cache pool. For best performance SSD devices are preferred.
 :end
+
 
 :docker_appdata_location_help:
 You can specify a folder to automatically generate and store subfolders containing configuration files for each Docker app (via the /config mapped volume).
@@ -982,6 +991,11 @@ It is recommended to create this folder outside the array, e.g. on the Cache poo
 Only used when adding new Docker apps. Editing existing Docker apps will not be affected by this setting.
 :end
 
+:docker_vdisk_directory_help:
+You must specify a folder for Docker. The system will automatically create this folder when the Docker service is first started.
+
+It is recommended to create this folder under a share which resides on the Cache pool (setting: cache=Only). For best performance SSD devices are preferred.
+:end
 :docker_log_rotation_help:
 By default LOG rotation is disabled and will create a single LOG file of unlimited size.
 
@@ -991,7 +1005,6 @@ Enable LOG rotation to limit the size of the LOG file and specify the number of 
 :docker_log_file_size_help:
 Specifies the maximum LOG size. When exceeded LOG rotation will occur.
 :end
-
 :docker_log_file_number_help:
 Specifies the number of LOG files when LOG rotation is done.
 :end
@@ -999,7 +1012,6 @@ Specifies the number of LOG files when LOG rotation is done.
 :docker_authoring_mode_help:
 If set to **Yes**, when creating/editing containers the interface will be present with some extra fields related to template authoring.
 :end
-
 :docker_custom_network_access_help:
 Allows direct communication between the host and containers using a custom (macvlan) network.<br>
 By default this is prohibited.
@@ -1011,6 +1023,7 @@ By default user created networks are removed from Docker. This is done to preven
 
 Change this setting to preserve user defined networks, but it is the responsibility of the user to ensure these entries work correctly and are conflict free.
 :end
+
 
 :docker_include_interface_vlan_ipv4_help:
 Include (default) or exclude the above interfaces or VLANs as custom network for Docker.
@@ -1047,7 +1060,6 @@ This is the location of the Docker image.
 :docker_appdata_location_active_help:
 This is the storage location for Docker containers.
 :end
-
 :docker_log_rotation_active_help:
 By default a single unlimited LOG file is created. Otherwise LOG file size and number of files are limited when LOG rotation is enabled.
 :end
@@ -1066,6 +1078,7 @@ Shows whether networks created outside of the GUI are removed or preserved for D
 
 If repair is needed you should check the *Correct file system errors* and run a second Scrub pass; this will permit *btrfs scrub* to fix the file system.
 :end
+
 
 :docker_cancel_help:
 **Cancel** will cancel the Scrub operation in progress.
@@ -1090,7 +1103,6 @@ This is the server model number.
 :mgmt_start_page_help:
 Select the page which is opened first when entering the GUI. By default the *Main* page is selected.
 :end
-
 :mgmt_use_telnet_help:
 By default TELNET access is enabled. TELNET is an insecure type of CLI access however,
 and it is highly recommended to use SSH access instead and disable TELNET access.
@@ -1105,10 +1117,10 @@ SSH is enabled by default and offers a secure way of CLI access. Upon system sta
 if not yet existing, and stored on the flash device in the folder */config/ssh*.
 :end
 
+
 :mgmt_ssh_port_help:
 Enter the SSH port, default port is 22.
 :end
-
 :mgmt_use_upnp_help:
 Enable (default) or disable the UPnP function on the server. This function allows automatic forwarding of ports on the router, only applicable when UPnP is enabled on the router itself.
 :end
@@ -1157,18 +1169,18 @@ Whether nginx enables OCSP Staping is determined by which certificate is in use:
 `config/ssl/certs/<server-name>_unraid_bundle.pem` => No
 :end
 
+
+
+
 :mgmt_http_port_help:
 Enter the HTTP port, default port is 80.
 :end
-
 :mgmt_https_port_help:
 Enter the HTTPS port, default port is 443.
 :end
-
 :mgmt_local_tld_help:
 Enter your local Top Level Domain. May be blank.
 :end
-
 :mgmt_certificate_expiration_help:
 **Provision** may be used to allocate a *free* SSL Certficiate from [Let's Encrypt](https://letsencrypt.org/) and
 then upload to your server. Note: We **highly** recommend using a static IP address in this case.
@@ -1211,18 +1223,19 @@ When all else fails, you can create an entry in your PC's *hosts* file to overri
 directly resolve your servers unraid.net FQDN to its local IP address.
 :end
 
+
+
+
 :ftp_server_help:
 Enable or disable the FTP server daemon. By default the FTP server is enabled.
 This setting is not saved, i.e. upon system reboot it will revert to its default setting.
 :end
-
 :ftp_users_help:
 Enter the user names (separated by spaces) permitted to access the server using FTP.
 To disallow any user access, clear this setting.
 
 **Note:** do not enter user name `root` since this may cause problems in the future.
 :end
-
 :ftp_overview_help:
 ### Overview
 
@@ -1230,6 +1243,7 @@ Unraid includes the popular `vsftpd` FTP server.  The configuration of `vsftp` i
 simple: **All** user names entered above are permitted to access the server via FTP and will have
 *full read/write/delete access* to the entire server, so use with caution.
 :end
+
 
 :smb_enable_help:
 Select 'Yes (Workgroup)' to enable SMB (Windows Networking) protocol support. This
@@ -1256,7 +1270,6 @@ Please also refer to the [VFS_FRUIT MAN PAGE](https://www.mankier.com/8/vfs_frui
 Select 'Yes' to enable NetBIOS.  If enabled, SMBv1 protocol will also be recognized.  If disabled,
 clients must use SMBv2 or higher.
 :end
-
 :smb_enable_wsd_help:
 Select 'Yes' to enable WSD (WS-Discovery).  The only reason to turn this off is when you are running an
 old LAN setup based on SMBv1.
@@ -1289,7 +1302,6 @@ of other servers, will usually become the local Master Browser.
 :nfs_enable_help:
 Select 'Yes' to enable the NFS protocol.
 :end
-
 :nfs_tunable_fuse_remember_help:
 When NFS is enabled, this Tunable may be used to alleviate or solve instances of "NFS Stale File Handles"
 you might encounter with your NFS client.
@@ -1315,6 +1327,9 @@ your client.  Be aware that setting a value of -1 will cause the memory footprin
 files/directories you access via NFS this may or may not lead to out-of-memory conditions.
 :end
 
+
+
+
 :shares_enable_disk_help:
 If set to No, disk shares are unconditionally not exported.
 
@@ -1323,11 +1338,9 @@ unless you *know* what you are doing.  This may result in the loss of data and i
 
 If set to Auto, only disk shares not participating in User Shares may be exported.
 :end
-
 :shares_enable_shares_help:
 If set to 'Yes' the User Shares feature is activated.
 :end
-
 :shares_included_disks_help:
 This setting defines the set of array disks which are *included* in User Shares.
 Unchecking all disks will allow **all** array disks to be included.
@@ -1352,6 +1365,7 @@ Notes:
 * No matter how this is set, the **mover** will still properly handle any detected hard links.
 :end
 
+
 :shares_tunable_direct_io_help:
 **Experimental**: If set to Yes then mount User Share file system with FUSE *direct_io* mount option.
 This will increase write performance but might possibly decrease read performance.
@@ -1370,7 +1384,6 @@ Syslog information is stored per IP address. That is every system gets its own s
 Select the share folder where the syslogs will be stored.
 It is recommended that you use a share located on the cache drive to prevent array disk spinups.
 :end
-
 :syslog_local_rotation_help:
 By default LOG rotation is disabled and will create a single LOG file of unlimited size.
 
@@ -1389,13 +1402,13 @@ Specifies the number of additional LOG files to keep in the rotation scheme.
 Enter a name or IP address of a remote syslog server.
 This will send a copy of the syslog messages to the designated server.
 :end
-
 :syslog_mirror_flash_help:
 This setting is NO by default and must be used with care to avoid unnecessary wear and tear of the USB device.
 
 Change this setting to YES when troubleshooting is required and it is not possible to get the regular diagnostics information.
 A mirror of the syslog file is stored in the **logs** folder of the flash device.
 :end
+
 
 :confirm_reboot_help:
 Choose if rebooting or powering down the server needs a confirmation checkbox.
@@ -1434,12 +1447,12 @@ Overrule the default background color in the header. This can be used to match t
 :display_custom_banner_help:
 Image will be scaled to 1920x90 pixels. The maximum image file upload size is 512 kB (524,288 bytes).
 :end
-
 :display_temperature_unit_help:
 Selects the temperature unit for the disk temperature thresholds. Changing the unit will adjust the existing value in the disk temperature thresholds as appropriate.
 
 Make sure any newly entered values represent the selected temperature unit.
 :end
+
 
 :vms_enable_help:
 Stopping the VM Manager will first attempt to shutdown all running VMs. After 60 seconds, any remaining VM instances will be terminated.
@@ -1453,7 +1466,6 @@ This is the libvirt volume.
 If the system needs to create a new libvirt image file, this is the default size to use specified in GB.
 To resize an existing image file, specify the new size here. Next time the Libvirt service is started the file (and file system) will increased to the new size (but never decreased).
 :end
-
 :vms_libvirt_location_help:
 You must specify an image file for Libvirt. The system will automatically create this file when the Libvirt service is first started.
 :end
@@ -1476,6 +1488,8 @@ Open the folder for the version of Windows you are installing and then select th
 Three drivers will be found. Select them all, click next, and the vDisks you have assigned will appear.
 :end
 
+
+
 :vms_network_bridge_help:
 Select the name of the network bridge you wish to use as default for your VMs,
 the setting 'virbr0' will let libvirt create a virtual bridge that utilizes NAT (network address translation)
@@ -1494,7 +1508,6 @@ the VM will be instructed to hibernate (if supported) otherwise it will attempt 
 When shutting down the server, this defines how long to wait in seconds for *graceful* VM shutdown before forcing shutdown to continue.
 NOTE: It's recommended to shut down guest VMs from within the VM.
 :end
-
 :vms_acs_override_help:
 *PCIe ACS override* allows various hardware components to expose themselves as isolated devices.
 Typically it is sufficient to isolate *Downstream* ports.
@@ -1504,6 +1517,7 @@ A reboot is required for changes to this setting to take affect.
 **Warning: use of this setting could cause possible data corruption with certain hardware configurations.**
 Please visit the [Lime Technology forums](https://forums.unraid.net/forum/51-vm-engine-kvm) for more information.
 :end
+
 
 :vms_vfio_interupts_help:
 If your system doesn't support interrupt remapping, these can be enabled by allowing unsafe interrupts.<br>
@@ -1516,7 +1530,6 @@ Please visit the [Lime Technology forums](https://forums.unraid.net/forum/51-vm-
 :vms_libvirt_log_help:
 View the log for libvirt: <a id="openlog" title="/var/log/libvirt/libvirtd.log" href="#" onclick="openWindow('/webGui/scripts/tail_log&arg1=libvirt/libvirtd.log','_(Libvirt Log)_',600,900);">/var/log/libvirt/libvirtd.log</a>
 :end
-
 :vms_scrub_help:
 **Scrub** runs the *btrfs scrub* program to check file system integrity.
 If repair is needed you should check the *Correct file system errors* and run a second Scrub pass; this will permit *btrfs scrub* to fix the file system.
@@ -1525,7 +1538,6 @@ If repair is needed you should check the *Correct file system errors* and run a 
 :vms_cancel_help:
 **Cancel* will cancel the Scrub operation in progress.
 :end
-
 :eth_interface_description_help:
 Use this optional field to provide addditional information about the purpose of the connection.
 :end
@@ -1540,6 +1552,7 @@ Bonding is a feature that combines multiple physical Ethernet interfaces into a 
 This can be used to improve the connection redundancy and/or throughput of the system.
 Different bonding modes are supported (see below), but some modes require proper switch support.
 :end
+
 
 :eth_bonding_mode_help:
 **Mode 0 (balance-rr)**<br>
@@ -1580,23 +1593,23 @@ such that different clients use different hw addresses for the server.
 Choosing a unsupported mode can result in a disrupted communication.*
 :end
 
+
+
 :eth_bonding_members_help:
 Select which interfaces are member of the *bonded* interface. By default eth0 is a member, while other interfaces are optional.
 :end
-
 :eth_enable_bridging_help:
 Bridging is a feature which creates a virtual bridge and allows VMs and Docker containers to communicate directly with the physical Ethernet port.
 Both bonding and bridging can be combined to let VMs or containers communicate over a *bonded* interface.
 :end
-
 :eth_bridging_members_help:
 Select which interfaces are member of the *bridged* interface. By default eth0 is a member, while other interfaces are optional.
 :end
-
 :eth_network_protocol_help:
 Select which protocol(s) are used. By default IPv4 only is used.<br>
 When both IPv4 and IPv6 is selected, each protocol can be configured independently.
 :end
+
 
 :eth_ipv4_address_assignment_help:
 The following settings are possible:
@@ -1654,7 +1667,6 @@ Greyed out when using automatic IP assignment. Otherwise specify here the IPv6 a
 :eth_ipv6_privacy_extensions_help:
 Enable or disable the generation of a random IPv6 interface identifier according to RFC4941. This is similar to the temporary IPv6 address generation on Windows machines.
 :end
-
 :eth_ipv6_dns_server_assignment_help:
 If set to *Automatic* the server will use IPv6 DNS server(s) returned by the local automatic assignment.<br>
 If set to *Static* you may enter your own list.
@@ -1684,6 +1696,7 @@ Enabling VLANs extends the number of logical connections over the same physical 
 Note: your router and switch must support VLANs too when this feature is used.
 :end
 
+
 :eth_vlan_number_help:
 Give each VLAN a unique identifier. Numbers range from 1 to 4095.
 :end
@@ -1698,6 +1711,7 @@ The interface assignment is stored on the flash device under */config/network-ru
 Deleting the file *network-rules.cfg* from the flash device will restore automatic interface assignment after a system reboot.
 :end
 
+
 :eth_routing_table_help:
 Enter a valid IPv4 route in the format *nnn.nnn.nnn.nnn/xx*, e.g. *192.168.1.0/24*<br>
 or enter a valid IPv6 route in the format *nnnn:nnnn:nnnn::nnnn/xxx*, e.g. *fe80::3ad8:2fff:fe25:9709/64*
@@ -1710,7 +1724,6 @@ The metric value is optional, it defaults to 1. Use it to select the prefered ga
 :apc_ups_daemon_help:
 Set to 'Yes' to enable apcupsd and start the daemon, set to 'No' to disable apcupsd and stop the daemon.
 :end
-
 :apc_ups_cable_help:
 Defines the type of cable connecting the UPS to your computer.Possible generic choices for 'cable' are:
 
@@ -1725,6 +1738,7 @@ Specify a special cable by model number, only applicable when *UPS cable* is set
 + 940-1524C, 940-0024G, 940-0095A, 940-0095B
 + 940-0095C, 940-0625A, M-04-02-2000
 :end
+
 
 :apc_ups_type_help:
 Define a *UPS type*, which corresponds to the type of UPS you have (see the Description for more details).
@@ -1756,7 +1770,6 @@ If during a power failure, the remaining battery percentage (as reported by the 
 :apc_runtime_left_help:
 If during a power failure, the remaining runtime in minutes (as calculated internally by the UPS) is below or equal to this field, apcupsd, will initiate a system shutdown.
 :end
-
 :apc_battery_time_help:
 If during a power failure, the UPS has run on batteries for *time-out* many seconds or longer; apcupsd will initiate a system shutdown. A value of zero disables this timer.
 
@@ -1767,6 +1780,7 @@ Of course - when testing - setting this to 60 causes a quick system shutdown if 
 If you have an older dumb UPS, you will want to set this to less than the time you know you can run on batteries.
 :end
 
+
 :apc_note_help:
 **Note:** *Battery level*, *Runtime left*, and *Time on battery* work in conjunction, so the first that occurs will cause the initiation of a shutdown.
 :end
@@ -1774,11 +1788,9 @@ If you have an older dumb UPS, you will want to set this to less than the time y
 :apc_killups_help:
 Set to *Yes* to turn off the power to the UPS after a shutdown.
 :end
-
 :parity_check_scheduled_help:
 By default no parity check is scheduled. Select here the desired schedule. This can be one of the preset schedules for daily, weekly, monthly, yearly or a custom schedule.
 :end
-
 :parity_day_of_the_week_help:
 When a **weekly** or **custom** schedule is selected then choose here the preferred *day of the week*, in the other schedules this setting is not used and unavailable.
 :end
@@ -1805,6 +1817,7 @@ Choose a mover schedule ranging from hourly, daily, weekly and monthly.
 
 The interval determines how fast the mover will activated, it runs in the background.
 :end
+
 
 :mover_day_of_the_week_help:
 Choose a day when the weekly schedule is selected. Otherwise disabled.
@@ -1843,7 +1856,6 @@ Select the desired time format which is used in the notifications archive. Recom
 :notifications_display_position_help:
 Choose the position of where notifications appear on screen. Multiple notifications are stacked, bottom-to-top or top-to-bottom depending on the selected placement.
 :end
-
 :notifications_store_flash_help:
 By default notifications are stored on RAM disk, which will get lost upon system reboot.
 Notifications may be stored permanently on the flash drive under folder '/boot/config/plugins/dynamix' instead.
@@ -1853,6 +1865,7 @@ Notifications may be stored permanently on the flash drive under folder '/boot/c
 By default the notifications system is disabled. Enable it here to start receiving notifications.
 The following sections give more options about which and what type of notifications will be sent.
 :end
+
 
 :notifications_os_update_help:
 Start a periodic verification and notify the user when a new version of the Unraid OS system is detected.
@@ -1888,6 +1901,7 @@ Notifications are classified as:
 Choose for each classification how you want to be notified.
 :end
 
+
 :smtp_preset_service_help:
 Select a preset service to set the basic service settings.
 :end
@@ -1895,11 +1909,9 @@ Select a preset service to set the basic service settings.
 :smtp_email_address_help:
 Email address of your mail account. This address is used as sender of the notifications.
 :end
-
 :smtp_recipients_help:
 Recipients of status and error notifications. Specify one or more email addresses, separate multiple email addresses with a space.
 :end
-
 :smtp_priority_help:
 Set email header with high importance, when there is a problem with unRaid.
 :end
@@ -1946,6 +1958,7 @@ that displays install progress. Do not close this window until install has compl
 the local file name of an extension.
 :end
 
+
 :plugin_error_help:
 These plugins were not installed because of some kind of installation error.  You should delete these
 plugins and then **reboot** your server.*
@@ -1971,19 +1984,18 @@ Clicking create will redownload the necessary files for the application and shou
 To delete a User-defined template, select it from the list above and click the red X to the right of it.
 :end
 
+
+
 :docker_client_name_help:
 Give the container a name or leave it as default.
 :end
-
 :docker_client_overview_help:
 A description for the application container.  Supports basic HTML mark-up.
 :end
-
 :docker_client_repository_help:
 The repository for the application on the Docker Registry.  Format of authorname/appname.
 Optionally you can add a : after appname and request a specific version for the container image.
 :end
-
 :docker_client_support_thread_help:
 Link to a support thread on Lime-Technology's forum.
 :end
@@ -2022,6 +2034,7 @@ If you wish to append additional commands to your Docker container at run-time, 
 For all possible Docker run-time commands, see here: <a href="https://docs.docker.com/reference/run/" target="_blank">https://docs.docker.com/reference/run/</a>
 :end
 
+
 :docker_post_arguments_help:
 If you wish to append additional arguments AFTER the container definition, you can specify them here.
 The content of this field is container specific.
@@ -2044,7 +2057,7 @@ For containers that require the use of host-device access directly or need full 
 For more information, see this link: <a href="https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities" target="_blank">https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities</a>
 :end
 
-; sysdevs help - added May 18, 2020
+
 :sysdevs_iommu_groups_help:
 This displays a list of IOMMU groups available on your system along with the output of the `lspci` command for each IOMMU group.  The numeric identifiers are used to configure PCI pass-through.
 
@@ -2059,16 +2072,19 @@ Devices you select will be bound to the vfio-pci driver at boot, which makes the
 <input type="checkbox" value="" disabled>&nbsp;&nbsp;If a checkbox is greyed out it means the device is in use by Unraid and can not be passed through.
 :end
 
+
+; sysdevs help - added May 18, 2020
 :sysdevs_thread_pairings_help:
 This displays a list of CPU thread pairings.
 :end
-
 :sysdevs_usb_devices_help:
 This displays the output of the `lsusb` command.  The numeric identifiers are used to configure PCI pass-through.
 :end
-
 :sysdevs_scsi_devices_help:
 This displays the output of the `lsscsi` command.  The numeric identifiers are used to configure PCI pass-through.
 
 Note that linux groups ATA, SATA and SAS devices with true SCSI devices.
 :end
+
+
+
