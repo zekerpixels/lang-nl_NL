@@ -214,6 +214,7 @@ The replacement disk must be as big or bigger than the original=De vervangende s
 This is typically done when a new disk is added to the array to get it ready for files to be written to it=Dit wordt gedaan wanneer een nieuwe schijf wordt toegevoegd aan het opslagsysteem en klaar is om beschreven te worden
 This unRAID Server OS release has been withdrawn and may no longer be used. Please %s update your server=Deze unRAID systeemuitgave is ingetrokken en kan niet langer worden gebruikt. Aub %s upgrade uw systeem
 This will ERASE ALL device content=Dit wist ALLE inhoud van de opslag
+This will ERASE content of ALL devices in the pool=Dit wist de inhoud van de COMPLETE groepopslag
 This will reboot the system=Dit zal het systeem herstarten
 This will shutdown the system=Dit zal het systeem uitzetten
 This will stop the array=Dit zal het opslagsysteem doen stoppen
