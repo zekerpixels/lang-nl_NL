@@ -6,10 +6,10 @@ and=en
 Anonymize diagnostics=Maak diagnostieken anoniem
 Anytime=Op elk gewenst moment
 Archived Notifications=Meldingen Archief
-Are you sure=Bent u zeker
-Array has been Reset=Opslagsysteem is **teruggezet**
-Array must be Started to change permissions=Opslagsysteem moet worden **Gestart** om rechten te kunnen veranderen
-Array must be Stopped to change=Opslagsysteem moet worden **Gestopt** om te kunnen veranderen
+Are you sure=Weet u het zeker
+Array has been Reset=De array is **teruggezet**
+Array must be Started to change permissions=De array moet worden **Gestart** om rechten te kunnen veranderen
+Array must be Stopped to change=De array moet worden **Gestopt** om te kunnen veranderen
 Array=Opslag
 Author=Autheur
 Blacklisted USB Flash GUID=USB Flash GUID staat op de zwarte lijst
@@ -130,7 +130,7 @@ ALERT=LETOP
 Bind selected to VFIO at Boot=Selectie verbinden met VFIO bij opstarten
 CPU Thread Pairings=CPU thread paren
 Changes saved=Wijzigingen opgeslagen
-Function Level Reset FLR supported=Functie Nivo Herzetten (FLR) wordt ondersteund
+Function Level Reset FLR supported=Functie Niveau Herzetten (FLR) wordt ondersteund
 In use by Unraid=In gebruik door Unraid
 Kernel driver in use vfio-pci=Kernelstuurprogramma in gebruik: vfio-pci
 No changes=Geen wijzigingen
@@ -177,17 +177,17 @@ Druk op **Downloaden** om het verzamelingsproces te starten en geef de browser d
 *Er wordt geen persoonlijke informatie inbegrepen door Unraid OS, zoals gebruikersnamen, wachtwoorden, of bestanden anders dan hierboven vermeld;
 echter de servernaam, IP adres en gebruikersmapnamen zijn **wel** inbegrepen.*
 
-*Letop dat plugins van 3de partijen **mogelijk** persoonlijke informatie opslaan die specifiek zijn aan de configuratie bestanden van de plugin of eventuele uitvoer naar het systeem logbestand.*
+*Letop dat plug-ins van 3de partijen **mogelijk** persoonlijke informatie opslaan die specifiek zijn aan de configuratie bestanden van de plug-in of eventuele uitvoer naar het systeem logbestand.*
 
 *Gebruik* **Maak diagnostieken anoniem** *wanneer het diagnostiekenbestand op het publieke forum wordt gezet. In privé communicatie met Limetech is het aanbevolen om geen anonimiteit te gebruiken en alle informatie onveranderd op te slaan.*
 :end
 
 :newconfig_plug:
-Dit hulpprogramma zet het opslagsysteem informatie terug, zodat het lijkt dat alle schijven "Nieuw" zijn, alsof het een nieuwe server betreft.
+Dit hulpprogramma zet de array informatie terug, zodat het lijkt dat alle schijven "Nieuw" zijn, alsof het een nieuwe server betreft.
 
 Dit is handig wanneer meerdere schijven zijn toegevoegd of verwijderd en de wens bestaat om de pariteit te herbouwen, gebaseerd op een nieuwe configuratie.
 
-Gebruik de *Onthoud huidige toekenningen* selectie om de gewenste schijfsloten voor in te vullen **nadat** het opslagsysteem is teruggezet.
+Gebruik de *Onthoud huidige toekenningen* selectie om de gewenste schijfsloten voor in te vullen **nadat** de array is teruggezet.
 Standaard worden *geen* schijfsloten vooringevuld.
 
 **GEBRUIK DIT HULPROGRAMMA NIET OM EEN FOUTIEVE SCHIJF TE HERSTELLEN** - het doet het tegenovergestelde
@@ -240,7 +240,7 @@ Letop: USB geheugenkaart lezers zijn in het algemeen **niet** ondersteund, omdat
 :registration_3_plug:
 De *Proefsleutel* bevat alle functionaliteit en apparaatondersteuning van een *Pro* registratie sleutel.
 
-Nadat de *Proefsleutel* is komen te vervallen, zal de server nog steeds **normaal functioneren** totdat het opslagsysteem wordt **Gestopt**</code>.
+Nadat de *Proefsleutel* is komen te vervallen, zal de server nog steeds **normaal functioneren** totdat de array wordt **Gestopt**</code>.
 
 Op dit moment, kan er een registratie sleutel worden gekocht of de proeftijd worden verlengd.
 :end
