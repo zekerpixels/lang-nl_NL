@@ -1,6 +1,6 @@
 also remove image=verwijder ook het image
 Apply=Toepassen
-Are you sure=Bent u zeker?
+Are you sure=Weet u het zeker?
 Cancel=Annuleren
 checking=controleren
 Completely REMOVE=Geheel VERWIJDEREN
@@ -45,8 +45,8 @@ Yes, update it=Ja, bijwerken
 Yes=Ja
 
 ; footer messages
-Array Starting=Opslagsysteem starten
-Array Stopping=Opslagsysteem stoppen
+Array Starting=De array starten
+Array Stopping=De array stoppen
 Mounting disks=Schijven koppelen
 Spinning up all drives=Alle schijven opstarten
 Starting services=Diensten starten
