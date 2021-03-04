@@ -41,7 +41,7 @@ Recycle Bin Log=Prullenbak logboek
 > Klik op het pictogram <strong>Bladeren</strong> om door de verwijderde bestanden in die gedeelde map te bladeren.
 > Klik op de knop <strong>Leeg</strong> om de verwijderde bestanden te verwijderen.
 >
-> Mappen op niet-toegewezen apparaten worden alleen weergegeven als de Prullenbak is ingeschakeld voor niet-toegewezen apparaten en als er niet-toegewezen apparaten zijn aangekoppeldm gedeeld en de Prullenbak inhoud bevat.
+> Mappen op niet-toegewezen apparaten worden alleen weergegeven als de Prullenbak is ingeschakeld voor niet-toegewezen apparaten en als er niet-toegewezen apparaten zijn aangekoppeld, gedeeld en de Prullenbak inhoud bevat.
 >
 > Klik op de kolommen 'SMB map', 'Map Type' of 'Trash Size' van de tabelkop en de inhoud wordt gesorteerd. De 'Prullenbakgrootte' is een alfanumerieke en geen numerieke sortering. 
 :end
