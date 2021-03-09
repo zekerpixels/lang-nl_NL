@@ -1,0 +1,29 @@
+Default Script=Standaard script
+Edit Script=Script wijzigen
+Enter Script File Name=Voer de naam van het scriptbestand in 
+Enter and Edit the Script that runs when a udev or operator event occurs=Schrijf en bewerk het script in dat wordt uitgevoerd wanneer een udev- of operatorgebeurtenis plaatsvindt
+Load the default script=Laad het standaardscript 
+Remove Script File=Verwijder het scriptbestand 
+Run in background=Laten lopen op de achtergrond 
+Save your changes and save to Script File=Sla uw wijzigingen op en sla ze op in het scriptbestand 
+Save=Opslaan
+Script content=Script inhoud 
+Turn on to run Script File in the background=Schakel in om Script-bestand op de achtergrond uit te voeren 
+Undo your changes since last Save=Maak uw wijzigingen sinds de laatste keer opslaan ongedaan 
+;
+; Help
+;
+:ud_edit_script_choose_name_plug:
+> Kies uw scriptnaam in de vervolgkeuzelijst met bestandsselectie of voer de gewenste scriptnaam in. 
+:end
+
+:ud_edit_script_run_background_plug:
+> Schakel 'Uitvoeren op achtergrond' in om het script als achtergrondtaak te laten draaien. Dat kan voorkomen dat de gebruikersinterface van niet-toegewezen apparaten blijft hangen wanneer het script vanuit de gebruikersinterface wordt uitgevoerd. 
+:end
+
+:ud_edit_script_buttons_plug:
+> Klik op de knop **Opslaan** om de huidige bewerkingen vast te leggen. Klik op **Opnieuw instellen** om eventuele wijzigingen ongedaan te maken (voordat u opslaat). Klik op **Gereed** om deze pagina af te sluiten.
+>
+> Klik op de knop **Standaardscript** om het invoervak te initialiseren met een standaardscript.
+> U moet nog steeds op **Opslaan** klikken om de wijziging vast te leggen. 
+:end

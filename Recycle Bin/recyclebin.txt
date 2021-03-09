@@ -68,7 +68,7 @@ Recycle Bin Log=Prullenbak logboek
 > Bijvoorbeeld '% M /% S' zal de verwijderde bestanden ordenen op de apparaatnaam die het bestand heeft verwijderd en vervolgens op de mapnaam structuur.
 >
 > + '%S' Samba map naam (die in Unraid gelijk is aan de mapnaam), bijv. Opslag
-> + '%P' Volledige locatie van de door gebruiker gedeelde map, bijv. / Mnt / user / Storage, / mnt / disk1, / mnt / disks / unassigned_device, / flash
+> + '%P' Volledige locatie van de door gebruiker gedeelde map, bijv. /Mnt/user/Storage, /mnt/disk1, /mnt/disks/unassigned_device, /flash
 > + '%u' Gebruikersnaam van de huidige service, indien van toepassing.
 > + '%m' Apparaatnaam van de gebruiker die het bestand heeft verwijderd 
 :end
