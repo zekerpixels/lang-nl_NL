@@ -31,10 +31,16 @@ Empty the=Leegmaken van
 Recycle Bin=Prullenbak
 Deleted Files Log=Verwijderen van de log bestanden
 Recycle Bin Log=Prullenbak logboek
+Yes I want to do this=
+to remove deleted files older than the 'Age Days' setting=
+Empty All Trash=
+to remove all deleted files=
 ;
 ; Help
 ;
 :recycle_bin_shares_plug:
+Starting and stopping the Recycle Bin can cause SMB shares to go offline for a short period.
+These actions apply to all shares:
 > Prullenbak mappen: 
 >
 > De mappen met de inhoud van de Prullenbak worden weergegeven samen met de grootte van de Prullenbak van de gedeelde map.
