@@ -31,10 +31,16 @@ Empty the=Leegmaken van
 Recycle Bin=Prullenbak
 Deleted Files Log=Verwijderen van de log bestanden
 Recycle Bin Log=Prullenbak logboek
+Yes I want to do this=
+to remove deleted files older than the 'Age Days' setting=
+Empty All Trash=
+to remove all deleted files=
 ;
 ; Help
 ;
 :recycle_bin_shares_plug:
+Starting and stopping the Recycle Bin can cause SMB shares to go offline for a short period.
+These actions apply to all shares:
 > Prullenbak mappen: 
 >
 > De mappen met de inhoud van de Prullenbak worden weergegeven samen met de grootte van de Prullenbak van de gedeelde map.
@@ -71,6 +77,10 @@ Recycle Bin Log=Prullenbak logboek
 > + '%P' Volledige locatie van de door gebruiker gedeelde map, bijv. /Mnt/user/Storage, /mnt/disk1, /mnt/disks/unassigned_device, /flash
 > + '%u' Gebruikersnaam van de huidige service, indien van toepassing.
 > + '%m' Apparaatnaam van de gebruiker die het bestand heeft verwijderd 
+:end
+
+:recycle_bin_permissions_plug:
+> Set the directory and sub-directory permissions of the Recycle Bin.  Set permissions to 07xx for the Recycle Bin to operate properly.  Don't change this from the default if you don't know how to use permissions.
 :end
 
 :recycle_bin_excluded_files_plug:

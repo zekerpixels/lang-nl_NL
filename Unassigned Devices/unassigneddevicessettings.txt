@@ -53,6 +53,19 @@ Unassigned Devices=Niet-toegewezen apparaten
 > Stel in op **Ja** om een timer voor het terugdraaien van de schijf van 15 minuten in te stellen. Stel in op **Nee** om schijven te laten draaien. 
 :end
 
+:ud_settings_symlinks_plug:
+> Set to **Yes** to create symlinks for /mnt/remotes/ at /mnt/disks/.
+>
+> This is for backwards compatibility of VM and Docker Container mappings to the /mnt/disks/ mount point.
+> You are encouraged to change your mappings to the /mnt/remotes/ mount point.
+>
+> If you do not need the backwards compatibility, leave it set to **No**.
+:end
+
+:ud_settings_show_all_partitions_plug:
+> Set to **Yes** to show all disk partitions in the Unassigned Devices page as the default.  Set to **No** to hide the disk partitions as the default.
+:end
+
 :ud_settings_force_smb_plug:
 > Normaal gesproken wordt een externe SMB map gekoppeld met de hoogste versie van SMB die de externe server ondersteunt. Indien ingesteld op **Ja**, worden alle externe SMB mappen geforceerd gekoppeld met SMB v1. Sommige externe mappen geven fouten wanneer ze worden gekoppeld met SMB v2. SMB v1 heeft beveiligingsproblemen en mag alleen worden gebruikt als dit absoluut noodzakelijk is. Dit kan niet worden ingeschakeld als NetBIOS is uitgeschakeld. 
 :end
