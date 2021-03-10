@@ -54,16 +54,16 @@ Unassigned Devices=Niet-toegewezen apparaten
 :end
 
 :ud_settings_symlinks_plug:
-> Set to **Yes** to create symlinks for /mnt/remotes/ at /mnt/disks/.
+> Stel in op **Ja**  om symlinks te maken voor /mnt/remotes/ bij /mnt/disks/.
 >
-> This is for backwards compatibility of VM and Docker Container mappings to the /mnt/disks/ mount point.
-> You are encouraged to change your mappings to the /mnt/remotes/ mount point.
+> Dit is voor achterwaartse compatibiliteit van VM- en Docker Container-toewijzingen aan het /mnt/disks/ koppel punt.
+> U wordt aanbevolen om uw toewijzingen te wijzigen in het /mnt/remotes/ koppel punt.
 >
-> If you do not need the backwards compatibility, leave it set to **No**.
+> Als u de achterwaartse compatibiliteit niet nodig hebt, laat u deze op **Nee** staan.
 :end
 
 :ud_settings_show_all_partitions_plug:
-> Set to **Yes** to show all disk partitions in the Unassigned Devices page as the default.  Set to **No** to hide the disk partitions as the default.
+> Stel in op **Ja** om alle schijfpartities als standaard weer te geven op de pagina Niet-toegewezen apparaten. Stel in op **Nee** om de schijfpartities standaard te verbergen. 
 :end
 
 :ud_settings_force_smb_plug:
