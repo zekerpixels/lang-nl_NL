@@ -160,5 +160,5 @@ You will need to enter credentials for Windows 10 shares just to list them=U moe
 > + '/usr/local/sbin/rc.unassigned refresh /dev/sdX' - gebruikt aan het einde van de 'ADD' case of bij een script waar de 'Running...' indicator word geupdate.
 > + '/usr/local/sbin/rc.unassigned spindown devX' - terugdraaien van de schijf. De devX is de apparaatnaam op de UD-pagina. Als de apparaatnaam 'Dev 1' in gebruik is gebruik dan dev1 om het apparaat terug te laten draaien. Dit is niet mogelijk voor SSD's. 
 >
-> Be careful using the /dev/sdX designation because it can change after a reboot.
+> Wees voorzichtig met het gebruik van de /dev/sdX-aanduiding omdat deze kan veranderen na een herstart. 
 :end
