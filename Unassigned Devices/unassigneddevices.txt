@@ -115,35 +115,38 @@ You will need to enter credentials for Windows 10 shares just to list them=U moe
 >
 > Klik op het <i style='color:black;font-weight:bold;' class="fa fa-gear"></i> pictogram om naar de UD-instellingen te gaan.
 >
+> Je kunt een schijf omhoog of omlaag draaien door op de schijfbalindicator te klikken <i class='fa fa-circle orb green-orb'></i>or <i class='fa fa-circle orb grey-orb'></i> Alleen van toepassing op versie 6.9 RC2 en later. 
 :end
 
+
 :unassigned_devices_general_help_plug:
-> **Unassigned Devices is called UD for short.**
+> **Niet-toegewezen apparaten worden afgekort UD genoemd.**
 >
-> Hover your mouse over an any active area on the UD page and a tool tip will show you what clicking that area does.
-> You can mount USB devices, sata drives, Remote SMB/NFS shares, and ISO Files with UD.  Any devices with the auto mount switch on will be mounted when the array is started.  All drives and SMB/NFS Mounts are unmounted when the array is stopped on the 'stopping_svcs' event.
-> If you want to share your drive, you can turn on the Share switch.  The default for Remote SMB shares is Public read/write access.  Enable SMB Security by user in the Unassigned Devices Settings.  NFS shares are exported and access is read/write.  The export of NFS devices is enabled in the Unassigned Devices settings. You can also enable a common script that will be executed on every disk mount.  In order to share any UD device, sharing needs to be enabled in the UD Settings and the switch turned on to share the particular device.  SMB/NFS remove shares and ISO mounts are always shared.
+> Beweeg uw muis over een willekeurig actief gebied op de UD-pagina en een tooltip zal u laten zien wat klikken op dat gebied doet.
+> U kunt USB-apparaten, sata-drives, externe SMB/NFS-mappen en ISO-bestanden met UD koppelen. Alle apparaten waarvan de auto-mount-schakelaar is ingeschakeld, worden aangekoppeld wanneer de array wordt gestart. Alle schijven en SMB / NFS-koppelingen worden ontkoppeld wanneer de array wordt gestopt tijdens de 'stopping_svcs'-gebeurtenis.
+> Als u uw schijf wilt delen, kunt u de delen-schakelaar inschakelen. De standaardwaarde voor externe SMB-mappen is openbare lees-/schrijftoegang. Schakel SMB-beveiliging in per gebruiker in de instellingen voor niet-toegewezen apparaten. NFS-mappen worden geëxporteerd en toegang is lezen/schrijven. De export van NFS-apparaten is ingeschakeld in de instellingen voor Niet-toegewezen apparaten. U kunt ook een algemeen script inschakelen dat bij elke schijfkoppeling wordt uitgevoerd. Om een UD-apparaat te delen, moet delen zijn ingeschakeld in de UD-instellingen en moet de schakelaar zijn ingeschakeld om het specifieke apparaat te delen. SMB/NFS verwijdert shares en ISO-koppelingen worden altijd gedeeld.
+> Nadat u een koppelpunt heeft ingevoerd, drukt u op &lt;Enter&gt; om de wijziging op te slaan.
 >
-> Additional options are available when you click on the <i style='color:black;font-weight:bold;' class="fa fa-plus-square"></i> icon by device identification.  When the disk is unmounted, the mount point of the device can be changed.  The disk label will also be changed.  A disk can be formatted and an fsck run to check the disk.
+> Extra opties zijn beschikbaar wanneer u klikt op het <i style='color:black;font-weight:bold;' class="fa fa-plus-square"></i> pictogram voor apparaatidentificatie. Wanneer de schijf is ontkoppeld, kan het koppelpunt van het apparaat worden gewijzigd. Het schijflabel wordt ook gewijzigd. Een schijf kan worden geformatteerd en een fsck-run kan worden uitgevoerd om de schijf te controleren. 
 >
-> The 'Settings->Unassigned Devices' security settings for SMB and NFS must be set correctly for SMB and NFS sharing to work properly.
+> De 'Instellingen-> Niet-toegewezen apparaten' beveiligingsinstellingen voor SMB en NFS moeten correct zijn ingesteld om het delen van SMB en NFS mappen correct te laten werken. 
 >
-> If the mount button is grayed out for a SMB/NFS remote share, the remote server is not responding to a ping.  The remote share server must respond to a ping or UD will consider it off-line.
+> Als de aankoppelingsknop grijs is voor een externe SMB/NFS-map, reageert de externe server niet op een ping. De externe gedeelde server moet reageren op een ping of UD zal deze als offline beschouwen. 
 >
-> UD has a destructive mode that allows deleting disk partitions and formatting disks.	If Destructive Mode is not turned on in the UD Settings, you WILL NOT be able to format a disk or remove partitions.  Go the the 'Settings->Unassigned Devices' to set the destructive mode.
+> UD heeft een destructieve modus waarmee schijfpartities kunnen worden verwijderd en schijven kunnen worden geformatteerd. Als Destructieve modus niet is ingeschakeld in de UD-instellingen, kunt u GEEN schijf formatteren of partities verwijderen. Ga naar 'Instellingen-> Niet-toegewezen apparaten' om de destructieve modus in te stellen. 
 >
-> **To format a disk:**
+> **Om een schijf te formatteren:**
 >
-> + Destructive mode must be enabled.
-> + Disk must have all partitions removed.  Unmount disk, click on the <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> icon,, and click on all <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> icons to delete partitions.
-> + If the disk has been precelared and shows a grayed 'Format' button, click on the <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> icon, then click on the <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> icon to delete the preclear status file.
+> + De destructieve modus moet ingeschakeld zijn. 
+> + Op de schijf moeten alle partities zijn verwijderd. Ontkoppel de schijf en klik op het <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> pictogram en klik op alle <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> pictogramen om de partities te verwijderen. 
+> + Als de schijf vooraf is verwijderd en een grijze 'Formaat'-knop word weergegeven, klik dan op het <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> pictogram, klik vervolgens op het <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> pictogram om het preclear statusbestand te verwijderen. 
 >
-> **Note: A disk partitioned in UD is compatible with the array disk partitioning and can be added to the array. Supported file formats are XFS, XFS encrypted, BTRFS and BTRFS encrypted.**
+> **Opmerking: een schijf die is gepartitioneerd in UD is compatibel met de array-schijfpartitionering en kan aan de array worden toegevoegd. Ondersteunde bestandsindelingen zijn XFS, XFS versleuteld, BTRFS en BTRFS versleuteld.**
 >
-> **Encrypted Disks:**
+> **Versleutelde schijven:**
 >
-> + Any disk formatted in UD that is encrypted will use the array password/passphrase and can be incorporated into the array.  Or you can set a unique password when it is formatted.  If you set a password on the disk when it is formatted, you will need to enter a disk password in Unassignd Devices->Settings for that disk.
-> + Any disk that was not encrypted with the Array password/passphrase can be mounted by setting a per disk passord set in Unassigned Devices->Settings.
+> + Elke schijf welke is geformatteerd in UD en die is versleuteld, maakt gebruikt het wachtwoord/wachtwoordzin van de array en kan in de array worden opgenomen. U kunt ook een uniek wachtwoord instellen wanneer de schij word geformateerd. Als u een wachtwoord op de schijf instelt wanneer deze wordt geformatteerd, moet u een schijfwachtwoord invoeren in Niet-toegewezen apparaten-> Instellingen voor die schijf.
+> + Elke schijf welke niet is gecodeerd met het array-wachtwoord/wachtwoordzin kan worden aangekoppeld door een wachtwoord per schijf in te stellen, dit is ingesteld in Unassigned Devices-> Settings. 
 >
 > **Niet-toegewezen apparaaten script:**
 >
@@ -155,4 +158,7 @@ You will need to enter credentials for Windows 10 shares just to list them=U moe
 > + '/usr/local/sbin/rc.unassigned mount /dev/sdX' - koppel apparaat sdX waarbij 'X' de apparaataanduiding is.
 > + '/usr/local/sbin/rc.unassigned umount /dev/sdX' - ontkoppel apparaat sdX waarbij 'X' de apparaataanduiding is. U kunt deze opdracht in een UD-script gebruiken om het apparaat te ontkoppelen wanneer het script is voltooid.
 > + '/usr/local/sbin/rc.unassigned refresh /dev/sdX' - gebruikt aan het einde van de 'ADD' case of bij een script waar de 'Running...' indicator word geupdate.
+> + '/usr/local/sbin/rc.unassigned spindown devX' - terugdraaien van de schijf. De devX is de apparaatnaam op de UD-pagina. Als de apparaatnaam 'Dev 1' in gebruik is gebruik dan dev1 om het apparaat terug te laten draaien. Dit is niet mogelijk voor SSD's. 
+>
+> Be careful using the /dev/sdX designation because it can change after a reboot.
 :end
