@@ -145,14 +145,14 @@ You will need to enter credentials for Windows 10 shares just to list them=U moe
 > + Any disk formatted in UD that is encrypted will use the array password/passphrase and can be incorporated into the array.  Or you can set a unique password when it is formatted.  If you set a password on the disk when it is formatted, you will need to enter a disk password in Unassignd Devices->Settings for that disk.
 > + Any disk that was not encrypted with the Array password/passphrase can be mounted by setting a per disk passord set in Unassigned Devices->Settings.
 >
-> **Unassigned devices script:**
+> **Niet-toegewezen apparaaten script:**
 >
-> UD includes a script that is used for mounting and unmounting devices and SMB/NFS mounts. These scripts can be used from the command line or in your scripts as necessary.
+> UD bevat een script dat wordt gebruikt voor het koppelen en ontkoppelen van apparaten en SMB/NFS-koppelingen. Deze scripts kunnen worden gebruikt vanaf de opdrachtregel of indien nodig in uw scripts.
 >
-> + '/usr/local/sbin/rc.unassigned mount auto' - all devices and SMB/NFS mounts set to auto mount will be mounted.
-> + '/usr/local/sbin/rc.unassigned umount auto' - all devices and SMB/NFS mounts set to auto mount will be unmounted.
-> + '/usr/local/sbin/rc.unassigned umount all' - all devices and SMB/NFS mounts are unmounted in preparation for shutting down the array.
-> + '/usr/local/sbin/rc.unassigned mount /dev/sdX' - mount device sdX where 'X' is the device designator.
-> + '/usr/local/sbin/rc.unassigned umount /dev/sdX' - unmount device sdX where 'X' is the device designator. You can use this command in a UD script to unmount the device when the script has completed.
-> + '/usr/local/sbin/rc.unassigned refresh /dev/sdX' - used at the end of the 'ADD' case of a script so the 'Running...' indicator will be updated.
+> + '/usr/local/sbin/rc.unassigned mount auto' - alle apparaten en SMB/NFS-koppelingen die zijn ingesteld op automatische-koppelen zullen worden gekoppeld.
+> + '/usr/local/sbin/rc.unassigned umount auto' - alle apparaten en SMB/NFS-koppelingen die zijn ingesteld op automatisch koppelen, worden ontkoppeld.
+> + '/usr/local/sbin/rc.unassigned umount all' - alle apparaten en SMB/NFS-koppelingen worden ontkoppeld ter voorbereiding op het stoppen van de array.
+> + '/usr/local/sbin/rc.unassigned mount /dev/sdX' - koppel apparaat sdX waarbij 'X' de apparaataanduiding is.
+> + '/usr/local/sbin/rc.unassigned umount /dev/sdX' - ontkoppel apparaat sdX waarbij 'X' de apparaataanduiding is. U kunt deze opdracht in een UD-script gebruiken om het apparaat te ontkoppelen wanneer het script is voltooid.
+> + '/usr/local/sbin/rc.unassigned refresh /dev/sdX' - gebruikt aan het einde van de 'ADD' case of bij een script waar de 'Running...' indicator word geupdate.
 :end
